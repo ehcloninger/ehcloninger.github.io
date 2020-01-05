@@ -150,7 +150,7 @@ header.masthead {
     height: 100%;
     width: 100%;
     background-color: #212529;
-    opacity: 0.5; }
+    opacity: 0.0; }
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
@@ -331,3 +331,19 @@ tr:nth-child(even) {
 
 .nav-pills > li > a.active {
   background-color: #333333 !important; }
+
+.portfolio-dates {
+  font-size: 16px; }
+
+.portfolio-role {
+  font-size: 16px; }
+
+.portfolio-description {
+  font-size: 16px; }
+
+.portfolio-th {
+  font-size: 16px;
+  font-weight: bolder; }
+
+.portfolio-tabletext {
+  font-size: 16px; }

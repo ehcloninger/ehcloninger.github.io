@@ -22,7 +22,7 @@
 
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="/portfolio.html">
+  <link rel="canonical" href="http://localhost:4000/portfolio.html">
   <link rel="alternate" type="application/rss+xml" title="Eric Cloninger" href="/feed.xml">
   <script src="https://kit.fontawesome.com/9c639a3d5e.js" crossorigin="anonymous"></script>
 
@@ -45,13 +45,13 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/posts/index.html">Posts</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About</a>
         </li>
       </ul>
     </div>
@@ -70,6 +70,12 @@
           <div class="page-heading">
             <h1>Erics' Portfolio</h1>
             
+            <div class="boxed">
+              <p>Thank you for visiting my portfolio. If you'd prefer to see a traditional resume,
+            <a href="/assets/files/portfolio/Eric_Cloninger_Resume.pdf" target="_blank">
+            click here</a> or visit my <a href="https://www.linkedin.com/in/ericcloninger/" target="_blank">
+            LinkedIn profile</a>.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -80,18 +86,10 @@
     <div class="row">
       <div class="col-lg-10 col-md-10 mx-auto">
 
-        <div class="boxed">
-  <p>Thank you for visiting my portfolio site. This has been an on-going project to keep some of
-the work I've created the last 30 years. If you'd prefer to see a traditional resume,
-<a href="/assets/files/portfolio/Eric_Cloninger_Resume.pdf" target="_blank">
-click here</a> or visit my <a href="https://www.linkedin.com/in/ericcloninger/" target="_blank">
-LinkedIn profile</a>.</p>
-</div>
-<hr/>
-<ul class="nav nav-pills nav-pills-primary nav-pills-icons" role="tablist">
+        <ul class="nav nav-pills nav-pills-primary nav-pills-icons" role="tablist">
   <li class="nav-item">
     <a class="nav-link active" data-toggle="tab" href="#management" role="tablist">
-      <i class="fas fa-project-diagram" title="Management"></i>
+      <i class="fas fa-sitemap" title="Management"></i>
     </a>
   </li>
   <li class="nav-item">
@@ -150,20 +148,21 @@ LinkedIn profile</a>.</p>
     </a>
   </li>
 </ul>
+<hr/>
 <div class="tab-content tab-space">
   <div class="tab-pane active" id="management">
-    <h3>Management Experience</h3>
+    <h5>Management Experience</h5>
     <table class="table table-striped">
       <thead>
-        <th> Dates </th>
-        <th> Role </th>
-        <th> Description </th>
+        <th class="portfolio-th"> Dates </th>
+        <th class="portfolio-th"> Role </th>
+        <th class="portfolio-th"> Description </th>
       </thead>
       <tbody>
       <tr id="samsung_2">
-        <td> 3/2018 - Present</td>
-        <td> Sr. Technical Program Manager </td>
-        <td> <strong> Samsung Electronics </strong>
+        <td class="portfolio-dates"> 3/2018 - Present </td>
+        <td class="portfolio-role"> Sr. Technical Program Manager </td>
+        <td class="portfolio-description"> <strong> Samsung Electronics </strong>
         <p>
           Working remotely, traveling 1 or 2 times per month.
         </p>
@@ -187,9 +186,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- samsung_2-->
       <tr id="cigital">
-        <td> 9/2015 - 4/2016 </td>
-        <td> Sr. Product Manager </td>
-        <td> <strong> Cigital, Inc. </strong>
+        <td class="portfolio-dates"> 9/2015 - 4/2016 </td>
+        <td class="portfolio-role"> Sr. Product Manager </td>
+        <td class="portfolio-description"> <strong> Cigital, Inc. </strong>
         <p>
           Worked remotely, traveling as needed to corporate offices and customer sites.
         </p>
@@ -199,9 +198,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- cigital -->
       <tr id="samsung_1">
-        <td> 8/2014 - 8/2015 </td>
-        <td> Sr. Product Manager </td>
-        <td> <strong> Samsung Telecommunications (Contractor)</strong>
+        <td class="portfolio-dates"> 8/2014 - 8/2015 </td>
+        <td class="portfolio-role"> Sr. Product Manager </td>
+        <td class="portfolio-description"> <strong> Samsung Telecommunications (Contractor)</strong>
         <p>
           Worked remotely, traveled 1 or 2 times per month to corporate offices and development conferences.
         </p>
@@ -220,9 +219,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- samsung_1-->
       <tr id="coverity">
-        <td> 4/2014 - 8/2014 </td>
-        <td> Product Marketing Manager </td>
-        <td> <strong> Coverity (Contractor) </strong>
+        <td class="portfolio-dates"> 4/2014 - 8/2014 </td>
+        <td class="portfolio-role"> Product Marketing Manager </td>
+        <td class="portfolio-description"> <strong> Coverity (Contractor) </strong>
         <p>
           Worked remotely, traveled as necessary to trade shows and corporate offices in San Francisco, CA.
         </p>
@@ -232,11 +231,11 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- coverity -->
       <tr id="klocwork">
-        <td> 10/2012 - 3/2014 </td>
-        <td> Sr. Product Manager, Mobile and Embedded </td>
-        <td> <strong> Klocwork, Inc (Ottawa, ON) </strong>
+        <td class="portfolio-dates"> 10/2012 - 3/2014 </td>
+        <td class="portfolio-role"> Sr. Product Manager, Mobile and Embedded </td>
+        <td class="portfolio-description"> <strong> Klocwork, Inc (Ottawa, ON) </strong>
         <p>
-          Worked remotely, traveling 1 or 2 times per month to the corporate office in Ottawa.
+          Worked remotely, traveling 1 or 2 times per month to the corporate office in Ottawa and to client sites to support Enterprise Sales team.
         </p>
         <p>
           <strong> Transitioned Engineering Organization to Agile. </strong> Throughout 2013, Product Management and the Engineering leaders converted the existing development processes from waterfall to a Scrum-based process. This process involved converting the internal bug-tracking process based on GNATS to use a modern tool. We chose JIRA after evaluating several alternatives. Then Product Management began the process of migrating 8 years of customer requests into prioritized queues, often relying on a Kanban wall of sticky notes. During this time, the Engineering teams were still delivering products on a 1 year schedule, but were using the Product Management priorities and were delivering internal releases aligned to 3-week sprints.
@@ -252,9 +251,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- tab-pane klocwork -->
       <tr id="motorola">
-        <td> 2/2008 - 10/2012 </td>
-        <td> Sr. Product Manager </td>
-        <td> <strong> Motorola Mobility (Sunnyvale, CA) </strong>
+        <td class="portfolio-dates"> 2/2008 - 10/2012 </td>
+        <td class="portfolio-role"> Sr. Product Manager </td>
+        <td class="portfolio-description"> <strong> Motorola Mobility (Sunnyvale, CA) </strong>
         <p>
           Worked remotely, traveling quarterly to department offices in Sunnyvale, CA
         </p>
@@ -279,9 +278,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- motorola -->
       <tr id="windriver">
-        <td> 6/2006 - 2/2008 </td>
-        <td> Sr. Product Manager </td>
-        <td> <strong> Wind River Systems (Alameda, CA) </strong>
+        <td class="portfolio-dates"> 6/2006 - 2/2008 </td>
+        <td class="portfolio-role"> Sr. Product Manager </td>
+        <td class="portfolio-description"> <strong> Wind River Systems (Alameda, CA) </strong>
         <p>
           Worked remotely, traveling quarterly to company headqarters in Alameda, CA
         </p>
@@ -299,18 +298,18 @@ LinkedIn profile</a>.</p>
     </table>
   </div>
   <div class="tab-pane" id="software">
-    <h3>Software Development Experience</h3>
+    <h5>Software Development Experience</h5>
     <table class="table table-striped">
       <thead>
-        <th> Dates </th>
-        <th> Role </th>
-        <th> Description </th>
+        <th class="portfolio-th"> Dates </th>
+        <th class="portfolio-th"> Role </th>
+        <th class="portfolio-th"> Description </th>
       </thead>
       <tbody>
       <tr id="consultant">
-        <td> 7/2017 - 2/2018 </td>
-        <td> Consultant </td>
-        <td> <strong> Oil &amp; Gas Industry </strong>
+        <td class="portfolio-dates"> 7/2017 - 2/2018 </td>
+        <td class="portfolio-role"> Consultant </td>
+        <td class="portfolio-description"> <strong> Oil &amp; Gas Industry </strong>
         <p>
           Worked remotely, traveling to client site during project definition, milestones, and delivery.
         </p>
@@ -322,9 +321,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- sabbatical -->
       <tr id="afs">
-        <td> 10/2005 - 6/2006 </td>
-        <td> Sr. Engineer </td>
-        <td> <strong> Advanced Financial Solutions (Contractor) </strong>
+        <td class="portfolio-dates"> 10/2005 - 6/2006 </td>
+        <td class="portfolio-role"> Sr. Engineer </td>
+        <td class="portfolio-description"> <strong> Advanced Financial Solutions (Contractor) </strong>
         <p>
           Worked remotely and onsite, commuting to engineering office in Norman, OK
         </p>
@@ -337,9 +336,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- tab-pane afs -->
       <tr id="palm">
-        <td> 10/1999 - 7/2005 </td>
-        <td> Sr. Engineer </td>
-        <td> <strong> Palm/PalmSource (Sunnyvale, CA) </strong>
+        <td class="portfolio-dates"> 10/1999 - 7/2005 </td>
+        <td class="portfolio-role"> Sr. Engineer </td>
+        <td class="portfolio-description"> <strong> Palm/PalmSource (Sunnyvale, CA) </strong>
         <p>
           Worked remotely from Austin, TX, traveling quarterly to company headquarters in Sunnyvale, CA
         </p>
@@ -358,9 +357,9 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- tab-pane palm -->
       <tr id="metrowerks">
-        <td> 5/1996 - 10/1999 </td>
-        <td> Sr. Engineer/Product Manager </td>
-        <td> <strong> Metrowerks (Austin, TX) </strong>
+        <td class="portfolio-dates"> 5/1996 - 10/1999 </td>
+        <td class="portfolio-role"> Sr. Engineer/Product Manager </td>
+        <td class="portfolio-description"> <strong> Metrowerks (Austin, TX) </strong>
         <p>
           <strong> Pivot the Company. </strong> I started at Metrowerks as a developer who had deep technical experience with (classic) Mac development, Windows development, and the Microsoft Foundation Classes. At the time, the Metrowerks CodeWarrior tools were praised by Mac developers for helping them make the transition from the M68K chip to the PowerPC chip. Metrowerks wanted their products to run on Windows and MacOS at the same time. As part of a focused team, we built the Windows version of CodeWarrior that used the same code base as the Mac OS version and by the time we went to market, it was built with the CodeWarrior compiler instead of Visual C++. This was the beginning of a new chapter for Metrowerks in the mid-1990's.
         </p>
@@ -370,18 +369,18 @@ LinkedIn profile</a>.</p>
         </td>
       </tr> <!-- tab-pane metrowerks -->
       <tr id="adp">
-        <td> 10/1994 - 5/1996 </td>
-        <td> Technical Lead </td>
-        <td> <strong> ADP Brokerage Services (Denver, CO) </strong>
+        <td class="portfolio-dates"> 10/1994 - 5/1996 </td>
+        <td class="portfolio-role"> Technical Lead </td>
+        <td class="portfolio-description"> <strong> ADP Brokerage Services (Denver, CO) </strong>
         <p>
           I was the technical lead for the 6-member client development team on a client-server municipal bond trading system. When the product was released, I traveled to client sites to install and support the software and train the first customers on its use. I wrote the end-user documentation and trained customer service representatives on how to configure and support the product.
         </p>
         </td>
       </tr> <!-- tab-pane misc -->
       <tr id="miscjobs">
-        <td> 3/1988 - 10/1994 </td>
-        <td> Software Developer </td>
-        <td> <strong> Miscellaneous Companies (Denver, CO; Stillwater, OK) </strong>
+        <td class="portfolio-dates"> 3/1988 - 10/1994 </td>
+        <td class="portfolio-role"> Software Developer </td>
+        <td class="portfolio-description"> <strong> Miscellaneous Companies (Denver, CO; Stillwater, OK) </strong>
         <p>
           Software development on Windows, DEC VMS, and Classic Mac OS using C, C++, and Pascal.
         </p>
@@ -391,189 +390,189 @@ LinkedIn profile</a>.</p>
     </table>
   </div>
   <div class="tab-pane" id="presentations">
-    <h3>Live Presentations</h3>
+    <h5>Live Presentations</h5>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Year </th>
-          <th> Event </th>
-          <th> Representing </th>
-          <th> Topic </th>
+          <th class="portfolio-th"> Year </th>
+          <th class="portfolio-th"> Event </th>
+          <th class="portfolio-th"> Representing </th>
+          <th class="portfolio-th"> Topic </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td> 2015 </td>
-          <td> EclipseCon </td>
-          <td> Andmore Project </td>
-          <td> Andmore - The Eclipse Android Tooling Project </td>
+          <td class="portfolio-tabletext"> 2015 </td>
+          <td class="portfolio-tabletext"> EclipseCon </td>
+          <td class="portfolio-tabletext"> Andmore Project </td>
+          <td class="portfolio-tabletext"> Andmore - The Eclipse Android Tooling Project </td>
         </tr>
         <tr>
-          <td> 2013 </td>
-          <td> Samsung Developer Conference </td>
-          <td> Samsung </td>
-          <td> Gear S Primer – What you Need to Know to Get Started </td>
+          <td class="portfolio-tabletext"> 2013 </td>
+          <td class="portfolio-tabletext"> Samsung Developer Conference </td>
+          <td class="portfolio-tabletext"> Samsung </td>
+          <td class="portfolio-tabletext"> Gear S Primer – What you Need to Know to Get Started </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Online Tutorial </td>
-          <td> Samsung </td>
-          <td> <a href="https://www.youtube.com/watch?v=fWAOajhbyg8" target="_blank"> Develop Samsung Gear and Android Apps with the Tizen IDE for Wearable </a> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Online Tutorial </td>
+          <td class="portfolio-tabletext"> Samsung </td>
+          <td class="portfolio-tabletext"> <a href="https://www.youtube.com/watch?v=fWAOajhbyg8" target="_blank"> Develop Samsung Gear and Android Apps with the Tizen IDE for Wearable </a> </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Live Webinar </td>
-          <td> Klocwork </td>
-          <td> <i> Secure and Robust Android Development using Static Code Analysis </i> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Live Webinar </td>
+          <td class="portfolio-tabletext"> Klocwork </td>
+          <td class="portfolio-tabletext"> <i> Secure and Robust Android Development using Static Code Analysis </i> </td>
         </tr>
         <tr>
-          <td> 2012 </td>
-          <td> EclipseCon </td>
-          <td> Eclipse Sequoyah Project </td>
-          <td> <a href="https://docs.google.com/file/d/0B-Sb6dhnjo5lNExRYzVWaTdUeEs1WnUxcGtqZmc3dw/edit" target="_blank"> Android 101 </a> </td>
+          <td class="portfolio-tabletext"> 2012 </td>
+          <td class="portfolio-tabletext"> EclipseCon </td>
+          <td class="portfolio-tabletext"> Eclipse Sequoyah Project </td>
+          <td class="portfolio-tabletext"> <a href="https://docs.google.com/file/d/0B-Sb6dhnjo5lNExRYzVWaTdUeEs1WnUxcGtqZmc3dw/edit" target="_blank"> Android 101 </a> </td>
         </tr>
         <tr>
-          <td> 2011 </td>
-          <td> EclipseCon </td>
-          <td> Motorola Mobility </td>
-          <td> Static analysis for quality mobile applications </td>
+          <td class="portfolio-tabletext"> 2011 </td>
+          <td class="portfolio-tabletext"> EclipseCon </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Static analysis for quality mobile applications </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> On-demand Webinar </td>
-          <td> Motorola Mobility </td>
-          <td> Improving Enterprise App Quality with MOTODEV App Validator </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> On-demand Webinar </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Improving Enterprise App Quality with MOTODEV App Validator </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> O'Reilly Android Open Conference </td>
-          <td> Eclipse Foundation </td>
-          <td> <a href="http://androidopen.com/android2011/public/schedule/detail/21059" target="_blank"> Eclipse For Android C/C++ Developers </a> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> O'Reilly Android Open Conference </td>
+          <td class="portfolio-tabletext"> Eclipse Foundation </td>
+          <td class="portfolio-tabletext"> <a href="http://androidopen.com/android2011/public/schedule/detail/21059" target="_blank"> Eclipse For Android C/C++ Developers </a> </td>
         </tr>
         <tr>
-        <td> &nbsp; </td>
-        <td> O'Reilly Android Open Conference </td>
-        <td> Motorola Mobility </td>
-        <td> <a href="http://androidopen.com/android2011/public/schedule/detail/21058" target="_blank"> Static Analysis For Improved Application Performance And Quality </a> </td>
+        <td class="portfolio-tabletext"> &nbsp; </td>
+        <td class="portfolio-tabletext"> O'Reilly Android Open Conference </td>
+        <td class="portfolio-tabletext"> Motorola Mobility </td>
+        <td class="portfolio-tabletext"> <a href="http://androidopen.com/android2011/public/schedule/detail/21058" target="_blank"> Static Analysis For Improved Application Performance And Quality </a> </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Big Android Barbeque </td>
-          <td> Motorola Mobility </td>
-          <td> <a href="http://www.bigandroidbbq.com" target="_blank"> Speaker/Booth </a> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Big Android Barbeque </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> <a href="http://www.bigandroidbbq.com" target="_blank"> Speaker/Booth </a> </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Silicon Valley Android Developers </td>
-          <td> Motorola Mobility </td>
-          <td> Localizing Your Android App in 10 minutes (Lightning Talk) </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Silicon Valley Android Developers </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Localizing Your Android App in 10 minutes (Lightning Talk) </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> MOTODEV App Summits </td>
-          <td> Motorola Mobility </td>
-          <td> Building Quality Into Your Apps Through Testing<br />
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> MOTODEV App Summits </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Building Quality Into Your Apps Through Testing<br />
           (Brazil, Argentina, Mexico) </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> AnDevCon I </td>
-          <td> Motorola Mobility </td>
-          <td> <a href="/assets/files/portfolio/AnDevConCatalog.pdf" target="_blank"> Beyond English: Make Your Android App a Global Success </a> (Class #801) </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> AnDevCon I </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> <a href="/assets/files/portfolio/AnDevConCatalog.pdf" target="_blank"> Beyond English: Make Your Android App a Global Success </a> (Class #801) </td>
         </tr>
         <tr>
-          <td> 2010 </td>
-          <td> Adobe MAX </td>
-          <td> Motorola Mobility </td>
-          <td> Power Tools for Android App developers </td>
+          <td class="portfolio-tabletext"> 2010 </td>
+          <td class="portfolio-tabletext"> Adobe MAX </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Power Tools for Android App developers </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Big Android Barbeque </td>
-          <td> Motorola Mobility </td>
-          <td> Speaker/Booth </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Big Android Barbeque </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Speaker/Booth </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> Eclipse Day at Google </td>
-          <td> Eclipse Sequoyah Project </td>
-          <td> <a href="http://wiki.eclipse.org/Eclipse_Day_At_Googleplex_2010/Session_Abstracts#Eclipse_Sequoyah_for_Android_App_Developers" target="_blank"> Eclipse Sequoyah for Android App Developers </a> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> Eclipse Day at Google </td>
+          <td class="portfolio-tabletext"> Eclipse Sequoyah Project </td>
+          <td class="portfolio-tabletext"> <a href="http://wiki.eclipse.org/Eclipse_Day_At_Googleplex_2010/Session_Abstracts#Eclipse_Sequoyah_for_Android_App_Developers" target="_blank"> Eclipse Sequoyah for Android App Developers </a> </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> MOTODEV App Summits </td>
-          <td> Motorola Mobility </td>
-          <td> MOTODEV Studio Tools<br>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> MOTODEV App Summits </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> MOTODEV Studio Tools<br>
           Advanced Debugging Techniques<br />
           (Brazil, Argentina, Mexico, China, USA) </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> EclipseCon </td>
-          <td> Eclipse Sequoyah Project </td>
-          <td> Eclipse for Mobile Application Development (Panel Lead) </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> EclipseCon </td>
+          <td class="portfolio-tabletext"> Eclipse Sequoyah Project </td>
+          <td class="portfolio-tabletext"> Eclipse for Mobile Application Development (Panel Lead) </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> EclipseCon Program Committee </td>
-          <td> Eclipse TmL Project </td>
-          <td> Assisted with Embedded and Mobile device sessions </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> EclipseCon Program Committee </td>
+          <td class="portfolio-tabletext"> Eclipse TmL Project </td>
+          <td class="portfolio-tabletext"> Assisted with Embedded and Mobile device sessions </td>
         </tr>
         <tr>
-          <td> 2009 </td>
-          <td> Chicago Android User Group </td>
-          <td> Motorola Mobility </td>
-          <td> MOTODEV Studio Tools, Unofficial DROID Launch </td>
+          <td class="portfolio-tabletext"> 2009 </td>
+          <td class="portfolio-tabletext"> Chicago Android User Group </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> MOTODEV Studio Tools, Unofficial DROID Launch </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> FITC Mobile </td>
-          <td> Motorola Mobility </td>
-          <td> Five Easy Steps to Creating Applications with MOTODEV Studio for Android </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> FITC Mobile </td>
+          <td class="portfolio-tabletext"> Motorola Mobility </td>
+          <td class="portfolio-tabletext"> Five Easy Steps to Creating Applications with MOTODEV Studio for Android </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> CELF Embedded Linux Conference </td>
-          <td> Eclipse Foundation </td>
-          <td> <a href="http://www.embeddedlinuxconference.com/elc_2009/sessions.html#Cloninger" target="_blank"> Building an Embedded Tools Standard Using Eclipse </a> </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> CELF Embedded Linux Conference </td>
+          <td class="portfolio-tabletext"> Eclipse Foundation </td>
+          <td class="portfolio-tabletext"> <a href="http://www.embeddedlinuxconference.com/elc_2009/sessions.html#Cloninger" target="_blank"> Building an Embedded Tools Standard Using Eclipse </a> </td>
         </tr>
         <tr>
-          <td> &nbsp; </td>
-          <td> EclipseCon </td>
-          <td> Eclipse TmL Project </td>
-          <td> Convergence in Device Software </td>
+          <td class="portfolio-tabletext"> &nbsp; </td>
+          <td class="portfolio-tabletext"> EclipseCon </td>
+          <td class="portfolio-tabletext"> Eclipse TmL Project </td>
+          <td class="portfolio-tabletext"> Convergence in Device Software </td>
         </tr>
         <tr>
-          <td> 2008 </td>
-          <td> LinuxWorld </td>
-          <td> Eclipse TmL Project </td>
-          <td> Creating an End-to-End Mobile Linux Development and Simulation Environment Using Eclipse/TmL </td>
+          <td class="portfolio-tabletext"> 2008 </td>
+          <td class="portfolio-tabletext"> LinuxWorld </td>
+          <td class="portfolio-tabletext"> Eclipse TmL Project </td>
+          <td class="portfolio-tabletext"> Creating an End-to-End Mobile Linux Development and Simulation Environment Using Eclipse/TmL </td>
         </tr>
         <tr>
-          <td> 2007 </td>
-          <td> Telelogic User Group </td>
-          <td> Wind River Systems </td>
-          <td> Integrating Wind River Workbench and Telelogic Rhapsody Projects </td>
+          <td class="portfolio-tabletext"> 2007 </td>
+          <td class="portfolio-tabletext"> Telelogic User Group </td>
+          <td class="portfolio-tabletext"> Wind River Systems </td>
+          <td class="portfolio-tabletext"> Integrating Wind River Workbench and Telelogic Rhapsody Projects </td>
         </tr>
         <tr>
-          <td> 2006 </td>
-          <td> FreeScale Technology Forum </td>
-          <td> Wind River Systems </td>
-          <td> Embedded Software Panel </td>
+          <td class="portfolio-tabletext"> 2006 </td>
+          <td class="portfolio-tabletext"> FreeScale Technology Forum </td>
+          <td class="portfolio-tabletext"> Wind River Systems </td>
+          <td class="portfolio-tabletext"> Embedded Software Panel </td>
         </tr>
         <tr>
-          <td> 2005 </td>
-          <td> PalmSource Developer Conference </td>
-          <td> Palm Inc. </td>
-          <td> Layout, Debugging, and Design Tools topics (no information online) </td>
+          <td class="portfolio-tabletext"> 2005 </td>
+          <td class="portfolio-tabletext"> PalmSource Developer Conference </td>
+          <td class="portfolio-tabletext"> Palm Inc. </td>
+          <td class="portfolio-tabletext"> Layout, Debugging, and Design Tools topics (no information online) </td>
         </tr>
       </tbody>
     </table>
   </div>
   <div class="tab-pane" id="blogs">
-    <h3>Technical Blog Posts</h3>
+    <h5>Technical Blog Posts</h5>
     <div class="boxed">
-      <p>
+      <p class="portfolio-tabletext">
         The MOTODEV posts are self-hosted after Motorola took the official site offline. Note that nearly
         all the links to Motorola developer content are no longer valid, but the links are left intact to
         show these posts were part of a larger effort at Motorola. Items with a star
@@ -584,404 +583,404 @@ LinkedIn profile</a>.</p>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Date </th>
-          <th> Topic </th>
+          <th class="portfolio-th"> Date </th>
+          <th class="portfolio-th"> Topic </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td> 09-15-2014 </td>
-          <td> <a target="_self" href="/blog/2014/09/15/Develop-Samsung-Gear-and-Android-Apps-with-the-Tizen-IDE-for-Wearable"> Develop Samsung Gear and Android Apps with the Tizen IDE for Wearable </a> <em> (no longer available) </em> </td>
+          <td class="portfolio-tabletext"> 09-15-2014 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2014/09/15/Develop-Samsung-Gear-and-Android-Apps-with-the-Tizen-IDE-for-Wearable"> Develop Samsung Gear and Android Apps with the Tizen IDE for Wearable </a> <em> (no longer available) </em> </td>
         </tr>
         <tr>
-          <td> 08-19-2013 </td>
-          <td> <a target="_self" href="/blog/2013/08/19/Use-the-correct-Java-JDK-for-Android-builds"> Use the correct Java JDK for Android builds </a> </td>
+          <td class="portfolio-tabletext"> 08-19-2013 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2013/08/19/Use-the-correct-Java-JDK-for-Android-builds"> Use the correct Java JDK for Android builds </a> </td>
         </tr>
         <tr>
-          <td> 01-04-2013 </td>
-          <td> <a target="_self" href="/blog/2013/01/04/Bringing-up-your-Android-Dev-Environment-from-Scratch"> Bringing up your Android Dev Environment from Scratch </a> </td>
+          <td class="portfolio-tabletext"> 01-04-2013 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2013/01/04/Bringing-up-your-Android-Dev-Environment-from-Scratch"> Bringing up your Android Dev Environment from Scratch </a> </td>
         </tr>
         <tr>
-          <td> 07-25-2012 </td>
-          <td> <a target="_self" href="/blog/2012/07/25/MOTODEV-Studio-4.1"> MOTODEV Studio 4.1 </a> </td>
+          <td class="portfolio-tabletext"> 07-25-2012 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2012/07/25/MOTODEV-Studio-4.1"> MOTODEV Studio 4.1 </a> </td>
         </tr>
         <tr>
-          <td> 07-13-2012 </td>
-          <td> <a target="_self" href="/blog/2012/07/13/MOTODEV-Studio-4.0-and-the-ADT-20-plugins"> MOTODEV Studio 4.0 and the ADT 20 plugins </a> </td>
+          <td class="portfolio-tabletext"> 07-13-2012 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2012/07/13/MOTODEV-Studio-4.0-and-the-ADT-20-plugins"> MOTODEV Studio 4.0 and the ADT 20 plugins </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;04-25-2012 </td>
-          <td> <a target="_self" href="/blog/2012/04/25/MOTODEV-Studio-4.0"> MOTODEV Studio 4.0 </a> </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;04-25-2012 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2012/04/25/MOTODEV-Studio-4.0"> MOTODEV Studio 4.0 </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;02-14-2012 </td>
-          <td> <a target="_self" href="/blog/2012/02/14/Public-Service-Announcement-Back-up-your-keystore"> Public Service Announcement: Back up your keystore </a> </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;02-14-2012 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2012/02/14/Public-Service-Announcement-Back-up-your-keystore"> Public Service Announcement: Back up your keystore </a> </td>
         </tr>
         <tr>
-          <td> 01-06-2012 </td>
-          <td> <a target="_self" href="/blog/2012/01/06/MOTODEV-Studio-3.1-now-available"> MOTODEV Studio 3.1 now available </a> </td>
+          <td class="portfolio-tabletext"> 01-06-2012 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2012/01/06/MOTODEV-Studio-3.1-now-available"> MOTODEV Studio 3.1 now available </a> </td>
         </tr>
         <tr>
-          <td> 12-21-2011 </td>
-          <td> <a target="_self" href="/blog/2011/12/21/MOTODEV-Studio-3.1.0-Update-Site-Available"> MOTODEV Studio 3.1.0 Update Site Available </a> </td>
+          <td class="portfolio-tabletext"> 12-21-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/12/21/MOTODEV-Studio-3.1.0-Update-Site-Available"> MOTODEV Studio 3.1.0 Update Site Available </a> </td>
         </tr>
         <tr>
-          <td> 11-14-2011 </td>
-          <td> <a target="_self" href="/blog/2011/11/14/MOTODEV-Studio-3.0.2-update-is-now-available"> MOTODEV Studio 3.0.2 update is now available </a> </td>
+          <td class="portfolio-tabletext"> 11-14-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/11/14/MOTODEV-Studio-3.0.2-update-is-now-available"> MOTODEV Studio 3.0.2 update is now available </a> </td>
         </tr>
         <tr>
-          <td> 11-03-2011 </td>
-          <td> <a target="_self" href="/blog/2011/11/03/MOTODEV-App-Validator-SDK-Beta"> MOTODEV App Validator SDK Beta </a> </td>
+          <td class="portfolio-tabletext"> 11-03-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/11/03/MOTODEV-App-Validator-SDK-Beta"> MOTODEV App Validator SDK Beta </a> </td>
         </tr>
         <tr>
-          <td> 09-22-2011 </td>
-          <td> <a target="_self" href="/blog/2011/09/22/The-updated-MOTODEV-App-Validator"> The updated MOTODEV App Validator </a> </td>
+          <td class="portfolio-tabletext"> 09-22-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/09/22/The-updated-MOTODEV-App-Validator"> The updated MOTODEV App Validator </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;09-14-2011 </td>
-          <td> <a target="_self" href="/blog/2011/09/14/MOTODEV-Studio-3.0"> MOTODEV Studio 3.0 </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;09-14-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/09/14/MOTODEV-Studio-3.0"> MOTODEV Studio 3.0 </td>
         </tr>
         <tr>
-          <td> 06-15-2011 </td>
-          <td> <a target="_self" href="/blog/2011/06/15/MOTODEV-Studio-for-Android-2.2.1-Update-available"> MOTODEV Studio for Android 2.2.1 Update available </a> </td>
+          <td class="portfolio-tabletext"> 06-15-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/06/15/MOTODEV-Studio-for-Android-2.2.1-Update-available"> MOTODEV Studio for Android 2.2.1 Update available </a> </td>
         </tr>
         <tr>
-          <td> 06-03-2011 </td>
-          <td> <a target="_self" href="/blog/2011/06/03/MOTODEV-Studio-localization-feature-and-the-Google"> MOTODEV Studio localization feature and the Google... </a> </td>
+          <td class="portfolio-tabletext"> 06-03-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/06/03/MOTODEV-Studio-localization-feature-and-the-Google"> MOTODEV Studio localization feature and the Google... </a> </td>
         </tr>
         <tr>
-          <td> 05-09-2011 </td>
-          <td> <a target="_self" href="/blog/2011/05/09/MOTODEV-Studio-version-2.2"> MOTODEV Studio version 2.2 </a> </td>
+          <td class="portfolio-tabletext"> 05-09-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/05/09/MOTODEV-Studio-version-2.2"> MOTODEV Studio version 2.2 </a> </td>
         </tr>
         <tr>
-          <td> 04-08-2011 </td>
-          <td> <a target="_self" href="/blog/2011/04/08/MOTODEV-App-Validator-and-Motorola-XOOM"> MOTODEV App Validator and Motorola XOOM </a> </td>
+          <td class="portfolio-tabletext"> 04-08-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/04/08/MOTODEV-App-Validator-and-Motorola-XOOM"> MOTODEV App Validator and Motorola XOOM </a> </td>
         </tr>
         <tr>
-          <td> 03-16-2011 </td>
-          <td> <a target="_self" href="/blog/2011/03/16/MOTODEV-Studio-and-Android-ADT-plugins-version-10"> MOTODEV Studio and Android ADT plugins version 10.... </a> </td>
+          <td class="portfolio-tabletext"> 03-16-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/03/16/MOTODEV-Studio-and-Android-ADT-plugins-version-10"> MOTODEV Studio and Android ADT plugins version 10.... </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;03-01-2011 </td>
-          <td> <a target="_self" href="/blog/2011/03/01/MOTODEV-App-Validator"> MOTODEV App Validator </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;03-01-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/03/01/MOTODEV-App-Validator"> MOTODEV App Validator </td>
         </tr>
         <tr>
-          <td> 02-28-2011 </td>
-          <td> <a target="_self" href="/blog/2011/02/28/MOTODEV-Studio-for-Android-2.1.1-Update-available"> MOTODEV Studio for Android 2.1.1 Update available </a> </td>
+          <td class="portfolio-tabletext"> 02-28-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/02/28/MOTODEV-Studio-for-Android-2.1.1-Update-available"> MOTODEV Studio for Android 2.1.1 Update available </a> </td>
         </tr>
         <tr>
-          <td> 02-23-2011 </td>
-          <td> <a target="_self" href="/blog/2011/02/23/Honeycomb-SDK-3.0-Final-and-ADT-10"> Honeycomb SDK 3.0 (Final) and ADT 10 </a> </td>
+          <td class="portfolio-tabletext"> 02-23-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/02/23/Honeycomb-SDK-3.0-Final-and-ADT-10"> Honeycomb SDK 3.0 (Final) and ADT 10 </a> </td>
         </tr>
         <tr>
-          <td> 02-09-2011 </td>
-          <td> <a target="_self" href="/blog/2011/02/09/A-note-on-Android-SDK-2.3.3-API-level-10"> A note on Android SDK 2.3.3 (API level 10) </a> </td>
+          <td class="portfolio-tabletext"> 02-09-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/02/09/A-note-on-Android-SDK-2.3.3-API-level-10"> A note on Android SDK 2.3.3 (API level 10) </a> </td>
         </tr>
         <tr>
-          <td> 01-28-2011 </td>
-          <td> <a target="_self" href="/blog/2011/01/28/MOTODEV-Studio-2.1-is-now-available"> MOTODEV Studio 2.1 is now available </a> </td>
+          <td class="portfolio-tabletext"> 01-28-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/01/28/MOTODEV-Studio-2.1-is-now-available"> MOTODEV Studio 2.1 is now available </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;01-11-2011 </td>
-          <td> <a target="_self" href="/blog/2011/01/11/MOTODEV-Studio,-Your-Way"> MOTODEV Studio, Your Way (A Tu Manera, Do Seu Jeito, &#24744;&#21916;&#27426;&#30340;&#26041;&#24335;) </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;01-11-2011 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2011/01/11/MOTODEV-Studio,-Your-Way"> MOTODEV Studio, Your Way (A Tu Manera, Do Seu Jeito, &#24744;&#21916;&#27426;&#30340;&#26041;&#24335;) </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;12-17-2010 </td>
-          <td> <a target="_self" href="/blog/2010/12/17/MOTODEV-Studio-2.0.1-update-and-installers-now-available"> MOTODEV Studio 2.0.1 update and installers now available </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;12-17-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/12/17/MOTODEV-Studio-2.0.1-update-and-installers-now-available"> MOTODEV Studio 2.0.1 update and installers now available </td>
         </tr>
         <tr>
-          <td> 12-06-2010 </td>
-          <td> <a target="_self" href="/blog/2010/12/06/Notice-about-Android-SDK-2.3"> Notice about Android SDK 2.3 </a> </td>
+          <td class="portfolio-tabletext"> 12-06-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/12/06/Notice-about-Android-SDK-2.3"> Notice about Android SDK 2.3 </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;12-02-2010 </td>
-          <td> <a target="_self" href="/blog/2010/12/02/Get-to-the-bottom-of-memory-errors-with-MOTODEV-Studio"> Get to the bottom of memory errors with MOTODEV Studio </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;12-02-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/12/02/Get-to-the-bottom-of-memory-errors-with-MOTODEV-Studio"> Get to the bottom of memory errors with MOTODEV Studio </td>
         </tr>
         <tr>
-          <td> 11-09-2010 </td>
-          <td> <a target="_self" href="/blog/2010/11/09/A-special-thanks-and-Android-tools-survey"> A special thanks and #Android tools survey </a> </td>
+          <td class="portfolio-tabletext"> 11-09-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/11/09/A-special-thanks-and-Android-tools-survey"> A special thanks and #Android tools survey </a> </td>
         </tr>
         <tr>
-          <td> 10-07-2010 </td>
-          <td> <a target="_self" href="/blog/2010/10/07/MOTODEV-Studio-2.0-is-now-available"> MOTODEV Studio 2.0 is now available </a> </td>
+          <td class="portfolio-tabletext"> 10-07-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/10/07/MOTODEV-Studio-2.0-is-now-available"> MOTODEV Studio 2.0 is now available </a> </td>
         </tr>
         <tr>
-          <td> 07-28-2010 </td>
-          <td> <a target="_self" href="/blog/2010/07/28/MOTODEV-Studio-1.3-is-now-available"> MOTODEV Studio 1.3 is now available </a> </td>
+          <td class="portfolio-tabletext"> 07-28-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/07/28/MOTODEV-Studio-1.3-is-now-available"> MOTODEV Studio 1.3 is now available </a> </td>
         </tr>
         <tr>
-          <td> 07-06-2010 </td>
-          <td> <a target="_self" href="/blog/2010/07/06/MOTODEV-Studio-videos-on-YouTube"> MOTODEV Studio videos on YouTube </a> </td>
+          <td class="portfolio-tabletext"> 07-06-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/07/06/MOTODEV-Studio-videos-on-YouTube"> MOTODEV Studio videos on YouTube </a> </td>
         </tr>
         <tr>
-          <td> 05-23-2010 </td>
-          <td> <a target="_self" href="/blog/2010/05/23/MOTODEV-Studio-for-Android-1.2.1-Update-available"> MOTODEV Studio for Android 1.2.1 Update available </a> </td>
+          <td class="portfolio-tabletext"> 05-23-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/05/23/MOTODEV-Studio-for-Android-1.2.1-Update-available"> MOTODEV Studio for Android 1.2.1 Update available </a> </td>
         </tr>
         <tr>
-          <td> 03-23-2010 </td>
-          <td> <a target="_self" href="/blog/2010/03/23/MOTODEV-Studio-for-Android-1.2-is-now-available"> MOTODEV Studio for Android 1.2 is now available </a> </td>
+          <td class="portfolio-tabletext"> 03-23-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/03/23/MOTODEV-Studio-for-Android-1.2-is-now-available"> MOTODEV Studio for Android 1.2 is now available </a> </td>
         </tr>
         <tr>
-          <td> 02-23-2010 </td>
-          <td> <a target="_self" href="/blog/2010/02/23/MOTODEV-Studio-for-Android-1.1.1-Update-available"> MOTODEV Studio for Android 1.1.1 Update available </a> </td>
+          <td class="portfolio-tabletext"> 02-23-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/02/23/MOTODEV-Studio-for-Android-1.1.1-Update-available"> MOTODEV Studio for Android 1.1.1 Update available </a> </td>
         </tr>
         <tr>
-          <td> 01-04-2010 </td>
-          <td> <a target="_self" href="/blog/2010/01/04/MOTODEV-Studio-for-Android-1.1-is-now-available"> MOTODEV Studio for Android 1.1 is now available </a> </td>
+          <td class="portfolio-tabletext"> 01-04-2010 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2010/01/04/MOTODEV-Studio-for-Android-1.1-is-now-available"> MOTODEV Studio for Android 1.1 is now available </a> </td>
         </tr>
         <tr>
-          <td> 12-11-2009 </td>
-          <td> <a target="_self" href="/blog/2009/12/11/MOTODEV-Studio-for-Android-1.0.3-Update-available"> MOTODEV Studio for Android 1.0.3 Update available </a> </td>
+          <td class="portfolio-tabletext"> 12-11-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/12/11/MOTODEV-Studio-for-Android-1.0.3-Update-available"> MOTODEV Studio for Android 1.0.3 Update available </a> </td>
         </tr>
         <tr>
-          <td> 12-04-2009 </td>
-          <td> <a target="_self" href="/blog/2009/12/04/SDK-2.0.1-and-ADT-0.9.5"> SDK 2.0.1 and ADT 0.9.5 </a> </td>
+          <td class="portfolio-tabletext"> 12-04-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/12/04/SDK-2.0.1-and-ADT-0.9.5"> SDK 2.0.1 and ADT 0.9.5 </a> </td>
         </tr>
         <tr>
-          <td> 12-02-2009 </td>
-          <td> <a target="_self" href="/blog/2009/12/02/MOTODEV-Studio-for-Android-1.0.2-Update-available"> MOTODEV Studio for Android 1.0.2 Update available </a> </td>
+          <td class="portfolio-tabletext"> 12-02-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/12/02/MOTODEV-Studio-for-Android-1.0.2-Update-available"> MOTODEV Studio for Android 1.0.2 Update available </a> </td>
         </tr>
         <tr>
-          <td> 11-13-2009 </td>
-          <td> <a target="_self" href="/blog/2009/11/13/SDK-1.6-and-2.0-availability-and-support"> SDK 1.6 and 2.0 availability and support </a> </td>
+          <td class="portfolio-tabletext"> 11-13-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/11/13/SDK-1.6-and-2.0-availability-and-support"> SDK 1.6 and 2.0 availability and support </a> </td>
         </tr>
         <tr>
-          <td> 10-23-2009 </td>
-          <td> <a target="_self" href="/blog/2009/10/23/MOTODEV-Studio-for-Android-1.0.1-Update-available"> MOTODEV Studio for Android 1.0.1 Update available </a> </td>
+          <td class="portfolio-tabletext"> 10-23-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/10/23/MOTODEV-Studio-for-Android-1.0.1-Update-available"> MOTODEV Studio for Android 1.0.1 Update available </a> </td>
         </tr>
         <tr>
-          <td> 10-02-2009 </td>
-          <td> <a target="_self" href="/blog/2009/10/02/Welcome-to-MOTODEV-Studio-for-Android-1.0"> Welcome to MOTODEV Studio for Android 1.0 </a> </td>
+          <td class="portfolio-tabletext"> 10-02-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/10/02/Welcome-to-MOTODEV-Studio-for-Android-1.0"> Welcome to MOTODEV Studio for Android 1.0 </a> </td>
         </tr>
         <tr>
-          <td> 09-03-2009 </td>
-          <td> <a target="_self" href="/blog/2009/09/03/Whos-Speaking-at-the-MOTODEV-Summit"> Who's Speaking at the MOTODEV Summit? </a> </td>
+          <td class="portfolio-tabletext"> 09-03-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/09/03/Whos-Speaking-at-the-MOTODEV-Summit"> Who's Speaking at the MOTODEV Summit? </a> </td>
         </tr>
         <tr>
-          <td> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;08-03-2009 </td>
-          <td> <a target="_self" href="/blog/2009/08/03/Code-Snippets-in-MOTODEV-Studio-for-Android"> Code Snippets in MOTODEV Studio for Android </td>
+          <td class="portfolio-tabletext"> <i class="fa fa-star" style="color:#5050A3"> </i> &nbsp;08-03-2009 </td>
+          <td class="portfolio-tabletext"> <a target="_self" href="/blog/2009/08/03/Code-Snippets-in-MOTODEV-Studio-for-Android"> Code Snippets in MOTODEV Studio for Android </td>
         </tr>
       </tbody>
     </table>
   </div>
   <div class="tab-pane" id="books">
-    <h3>Books</h3>
+    <h5>Books</h5>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Title </th>
-          <th> Author </th>
-          <th> Publisher </th>
-          <th> Date </th>
-          <th> Description </th>
+          <th class="portfolio-th"> Title </th>
+          <th class="portfolio-th"> Author </th>
+          <th class="portfolio-th"> Publisher </th>
+          <th class="portfolio-th"> Date </th>
+          <th class="portfolio-th"> Description </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td> <a target="#" style="text-decoration:line-through"> <em> PalmPilot, The Ultimate Guide </em> </a> </td>
-          <td> David Pogue </td>
-          <td> O'Reilly Media </td>
-          <td> 1st Ed., 1998 </td>
-          <td> I wrote a 30 page chapter on programming the PalmPilot for the 1st edition of David Pogue's book. The chapter was removed from the second edition after O'Reilly began publishing other Palm OS programming titles. </td>
+          <td class="portfolio-tabletext"> <a target="#" style="text-decoration:line-through"> <em> PalmPilot, The Ultimate Guide </em> </a> </td>
+          <td class="portfolio-tabletext"> David Pogue </td>
+          <td class="portfolio-tabletext"> O'Reilly Media </td>
+          <td class="portfolio-tabletext"> 1st Ed., 1998 </td>
+          <td class="portfolio-tabletext"> I wrote a 30 page chapter on programming the PalmPilot for the 1st edition of David Pogue's book. The chapter was removed from the second edition after O'Reilly began publishing other Palm OS programming titles. </td>
         </tr>
         <tr>
-          <td> <a href="http://www.amazon.com/Windows-Hacks-Second-Preston-Gralla/dp/0596009186/ref=sr_1_12?s=books&amp;ie=UTF8&amp;qid=1346854229&amp;sr=1-12&amp;keywords=preston+gralla" target="_blank"> <em> Windows XP Hacks </em> </a> </td>
-          <td> Preston Gralla </td>
-          <td> O'Reilly Media </td>
-          <td> 2004 </td>
-          <td> I wrote 8 of the 100 hacks, several of which were published later in the <a href="http://www.amazon.com/Book-Windows-Hacks-Preston-Gralla/dp/0596528353/ref=pd_sim_b_1" target="_blank"> <em> Big Book of Windows Hacks </em> </a> . </td>
+          <td class="portfolio-tabletext"> <a href="http://www.amazon.com/Windows-Hacks-Second-Preston-Gralla/dp/0596009186/ref=sr_1_12?s=books&amp;ie=UTF8&amp;qid=1346854229&amp;sr=1-12&amp;keywords=preston+gralla" target="_blank"> <em> Windows XP Hacks </em> </a> </td>
+          <td class="portfolio-tabletext"> Preston Gralla </td>
+          <td class="portfolio-tabletext"> O'Reilly Media </td>
+          <td class="portfolio-tabletext"> 2004 </td>
+          <td class="portfolio-tabletext"> I wrote 8 of the 100 hacks, several of which were published later in the <a href="http://www.amazon.com/Book-Windows-Hacks-Preston-Gralla/dp/0596528353/ref=pd_sim_b_1" target="_blank"> <em> Big Book of Windows Hacks </em> </a> . </td>
         </tr>
         <tr>
-          <td> <a href="http://www.amazon.com/Windows-Cookbook-Cookbooks-Robbie-Allen/dp/0596007256/ref=la_B001IGV2KC_1_8?ie=UTF8&amp;qid=1346854397&amp;sr=1-8" target="_blank"> <em> Windows XP Cookbook </em> </a> </td>
-          <td> Robbie Allen </td>
-          <td> O'Reilly Media </td>
-          <td> 2005 </td>
-          <td> I was a technical reviewer on this book. </td>
+          <td class="portfolio-tabletext"> <a href="http://www.amazon.com/Windows-Cookbook-Cookbooks-Robbie-Allen/dp/0596007256/ref=la_B001IGV2KC_1_8?ie=UTF8&amp;qid=1346854397&amp;sr=1-8" target="_blank"> <em> Windows XP Cookbook </em> </a> </td>
+          <td class="portfolio-tabletext"> Robbie Allen </td>
+          <td class="portfolio-tabletext"> O'Reilly Media </td>
+          <td class="portfolio-tabletext"> 2005 </td>
+          <td class="portfolio-tabletext"> I was a technical reviewer on this book. </td>
         </tr>
         <tr>
-          <td> <a href="http://www.lulu.com/content/paperback-book/didaws-book/547835" target="_blank"> <em> Didaw's Book </em> </a> <br />
+          <td class="portfolio-tabletext"> <a href="http://www.lulu.com/content/paperback-book/didaws-book/547835" target="_blank"> <em> Didaw's Book </em> </a> <br />
           </td>
-          <td> James Howard Cloninger </td>
-          <td> Self-published (Lulu.com) </td>
-          <td> 2006 </td>
-          <td> I collected 500+ pages of my grandfather's notes and drawings into a book of family history with appendices of original genealogy research. </td>
+          <td class="portfolio-tabletext"> James Howard Cloninger </td>
+          <td class="portfolio-tabletext"> Self-published (Lulu.com) </td>
+          <td class="portfolio-tabletext"> 2006 </td>
+          <td class="portfolio-tabletext"> I collected 500+ pages of my grandfather's notes and drawings into a book of family history with appendices of original genealogy research. </td>
         </tr>
       </tbody>
     </table>
   </div>
   <div class="tab-pane" id="periodicals">
-    <h3>Magazines and Periodicals</h3>
+    <h5>Magazines and Periodicals</h5>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Title </th>
-          <th> Periodical </th>
-          <th> Date </th>
-          <th> Description </th>
+          <th class="portfolio-th"> Title </th>
+          <th class="portfolio-th"> Periodical </th>
+          <th class="portfolio-th"> Date </th>
+          <th class="portfolio-th"> Description </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td> <em> Factory Floor: </em>CodeWarrior for PalmPilot<br />
+          <td class="portfolio-tabletext"> <em> Factory Floor: </em>CodeWarrior for PalmPilot<br />
           <a href="http://www.mactech.com/articles/mactech/Vol.14/14.03/Mar98FactoryFloor/index.html" target="_blank"> MacTech site </a> | <a target="_self" href="/blog/1998/03/01/From-The-Factory-Floor-March-1998"> Local copy </a> </td>
-          <td> MacTech Magazine </td>
-          <td> March 1998 </td>
-          <td> Discussing the latest release of CodeWarrior for PalmPilot </td>
+          <td class="portfolio-tabletext"> MacTech Magazine </td>
+          <td class="portfolio-tabletext"> March 1998 </td>
+          <td class="portfolio-tabletext"> Discussing the latest release of CodeWarrior for PalmPilot </td>
         </tr>
         <tr>
-          <td> <em> Factory Floor: </em> A Palm Update, Part 1<br />
+          <td class="portfolio-tabletext"> <em> Factory Floor: </em> A Palm Update, Part 1<br />
           <a href="http://www.mactech.com/articles/mactech/Vol.15/15.09/Sep99FactoryFloor/index.html" target="_blank"> MacTech site </a> | <a target="_self" href="/blog/1999/10/01/From-The-Factory-Floor-October-1999"> Local copy </a> </td>
-          <td> MacTech Magazine </td>
-          <td> September 1999 </td>
-          <td> With Phil Shoemaker of Palm, talking about the latest releases of the Palm SDK and CodeWarrior for Palm OS </td>
+          <td class="portfolio-tabletext"> MacTech Magazine </td>
+          <td class="portfolio-tabletext"> September 1999 </td>
+          <td class="portfolio-tabletext"> With Phil Shoemaker of Palm, talking about the latest releases of the Palm SDK and CodeWarrior for Palm OS </td>
         </tr>
         <tr>
-          <td> <em> Factory Floor: </em> A Palm Update, Part 2<br />
+          <td class="portfolio-tabletext"> <em> Factory Floor: </em> A Palm Update, Part 2<br />
           <a href="http://www.macnews.com/articles/mactech/Vol.15/15.10/Oct99FactoryFloor/index.html" target="_blank"> MacTech site </a> | <a target="_self" href="/blog/1999/11/01/From-The-Factory-Floor-November-1999.html"> Local copy </a> </td>
-          <td> MacTech Magazine </td>
-          <td> October 1999 </td>
-          <td> Using CodeWarrior for Palm OS to create an internationalized application </td>
+          <td class="portfolio-tabletext"> MacTech Magazine </td>
+          <td class="portfolio-tabletext"> October 1999 </td>
+          <td class="portfolio-tabletext"> Using CodeWarrior for Palm OS to create an internationalized application </td>
         </tr>
       </tbody>
     </table>
   </div>
   <div class="tab-pane" id="whitepapers">
-    <h3>Case Studies and White Papers</h3>
+    <h5>Case Studies and White Papers</h5>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Title </th>
-          <th> Customer </th>
-          <th> Date </th>
-          <th> Description </th>
+          <th class="portfolio-th"> Title </th>
+          <th class="portfolio-th"> Customer </th>
+          <th class="portfolio-th"> Date </th>
+          <th class="portfolio-th"> Description </th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td> <a href="http://www.coverity.com/wp-content/uploads/2014/09/Sigma3-09.2014.pdf" target="_blank"> <em> Sigma Cubed is Coverity Clean </em> </a> <br />
+          <td class="portfolio-tabletext"> <a href="http://www.coverity.com/wp-content/uploads/2014/09/Sigma3-09.2014.pdf" target="_blank"> <em> Sigma Cubed is Coverity Clean </em> </a> <br />
           <a href="/assets/files/portfolio/Sigma3-09.2014.pdf" target="_blank"> (local copy) </a> </td>
-          <td> Coverity, Inc </td>
-          <td> August 2014 </td>
-          <td> Sigma Cubed is a geo-services company in Houston, TX and a customer of Coverity. I wrote this case study from recorded interviews and content taken from a webinar using personal knowledge of the Oil and Gas industry. </td>
+          <td class="portfolio-tabletext"> Coverity, Inc </td>
+          <td class="portfolio-tabletext"> August 2014 </td>
+          <td class="portfolio-tabletext"> Sigma Cubed is a geo-services company in Houston, TX and a customer of Coverity. I wrote this case study from recorded interviews and content taken from a webinar using personal knowledge of the Oil and Gas industry. </td>
         </tr>
         <tr>
-          <td> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Coverity_Bally-Case-Study1.pdf" target="_blank"> <em> Bally Delivers Better Products with Coverity </em> </a> <br />
+          <td class="portfolio-tabletext"> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Coverity_Bally-Case-Study1.pdf" target="_blank"> <em> Bally Delivers Better Products with Coverity </em> </a> <br />
           <a href="/assets/files/portfolio/Coverity_Bally-Case-Study1.pdf" target="_blank"> (local copy) </a> </td>
-          <td> Coverity, Inc </td>
-          <td> June 2014 </td>
-          <td> I conducted two sets of interviews with senior managers and engineering team leaders at Bally from the US and India to get information for this case study in time for their annual conference. </td>
+          <td class="portfolio-tabletext"> Coverity, Inc </td>
+          <td class="portfolio-tabletext"> June 2014 </td>
+          <td class="portfolio-tabletext"> I conducted two sets of interviews with senior managers and engineering team leaders at Bally from the US and India to get information for this case study in time for their annual conference. </td>
         </tr>
         <tr>
-          <td> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Coverity_Air-France-Case-Study.pdf" target="_blank"> <em> Air France injects agility into software testing with Coverity </em> </a> <br />
+          <td class="portfolio-tabletext"> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Coverity_Air-France-Case-Study.pdf" target="_blank"> <em> Air France injects agility into software testing with Coverity </em> </a> <br />
           <a href="/assets/files/portfolio/Coverity_Air-France-Case-Study.pdf" target="_blank"> (local copy) </a> </td>
-          <td> Coverity, Inc </td>
-          <td> June 2014 </td>
-          <td> I reworked an existing set of documents from an acquisition, with some quotes originally in French, to deliver this white paper. </td>
+          <td class="portfolio-tabletext"> Coverity, Inc </td>
+          <td class="portfolio-tabletext"> June 2014 </td>
+          <td class="portfolio-tabletext"> I reworked an existing set of documents from an acquisition, with some quotes originally in French, to deliver this white paper. </td>
         </tr>
         <tr>
-          <td> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Test-Advisor-QA-Edition.pdf" target="_blank"> <em> Coverity Test Advisor – QA Edition </em> </a> <br />
+          <td class="portfolio-tabletext"> <a href="http://www.coverity.com/wp-content/uploads/2014/06/Test-Advisor-QA-Edition.pdf" target="_blank"> <em> Coverity Test Advisor – QA Edition </em> </a> <br />
           <a href="/assets/files/portfolio/Test-Advisor-QA-Edition.pdf" target="_blank"> (local copy) </a> </td>
-          <td> Coverity, Inc </td>
-          <td> June 2014 </td>
-          <td> Coverity acquired a company in May 2014 and rebranded that company's product as Coverity Test Advisor - QA Edition. I created this data sheet from scratch along with several other pieces of collateral and a video showing how to install the tools. </td>
+          <td class="portfolio-tabletext"> Coverity, Inc </td>
+          <td class="portfolio-tabletext"> June 2014 </td>
+          <td class="portfolio-tabletext"> Coverity acquired a company in May 2014 and rebranded that company's product as Coverity Test Advisor - QA Edition. I created this data sheet from scratch along with several other pieces of collateral and a video showing how to install the tools. </td>
         </tr>
       </tbody>
     </table>
 
   </div>
   <div class="tab-pane" id="technical">
-    <h3>Technical Skills</h3>
+    <h5>Technical Skills</h5>
     <table class="table table-striped">
       <thead>
-        <th class="col-xs-2"> Skill </th>
-        <th class="col-xs-2"> Skill Level </th>
-        <th> Details </th>
+        <th class="portfolio-th"> Skill </th>
+        <th class="portfolio-th"> Skill Level </th>
+        <th class="portfolio-th"> Details </th>
       </thead>
       <tbody>
       <tr>
-        <td> C/C++ </td>
-        <td> High </td>
-        <td> Implement and use complex object models using C++. Writing cross-platform code using POSIX library and/or STL. </td>
+        <td class="portfolio-tabletext"> C/C++ </td>
+        <td class="portfolio-tabletext"> High </td>
+        <td class="portfolio-tabletext"> Implement and use complex object models using C++. Writing cross-platform code using POSIX library and/or STL. </td>
       </tr>
       <tr>
-        <td> Java </td>
-        <td> Medium </td>
-        <td> Can develop for Android and other platforms using Java 7 and earlier. </td>
+        <td class="portfolio-tabletext"> Java </td>
+        <td class="portfolio-tabletext"> Medium </td>
+        <td class="portfolio-tabletext"> Can develop for Android and other platforms using Java 7 and earlier. </td>
       </tr>
       <tr>
-        <td>Python, Ruby, Perl, etc.</td>
-        <td>Low-Medium</td>
-        <td>Some exposure, not used professionally. </td>
+        <td class="portfolio-tabletext">Python, Ruby, Perl, etc.</td>
+        <td class="portfolio-tabletext">Low-Medium</td>
+        <td class="portfolio-tabletext">Some exposure, not used professionally. </td>
       </tr>
       <tr>
-        <td> Windows Development </td>
-        <td> Medium-High </td>
-        <td> Develop for Win32 API as well as using Visual Studio, C++, and MFC. Command line applications and services using POSIX calls and/or Win32 API.</td>
+        <td class="portfolio-tabletext"> Windows Development </td>
+        <td class="portfolio-tabletext"> Medium-High </td>
+        <td class="portfolio-tabletext"> Develop for Win32 API as well as using Visual Studio, C++, and MFC. Command line applications and services using POSIX calls and/or Win32 API.</td>
       </tr>
       <tr>
-        <td> Web Development </td>
-        <td> Medium </td>
-        <td> Work with HTML5, JavaScript, CSS to create functional websites. Targeting Bootstrap and/or Jekyll for front-end on static servers. </td>
+        <td class="portfolio-tabletext"> Web Development </td>
+        <td class="portfolio-tabletext"> Medium </td>
+        <td class="portfolio-tabletext"> Work with HTML5, JavaScript, CSS to create functional websites. Targeting Bootstrap and/or Jekyll for front-end on static servers. </td>
       </tr>
       <tr>
-        <td> Android Development </td>
-        <td> Medium </td>
-        <td> Develop using Java, Android SDK, Eclipse and Android Studio. Target layouts for tablets and phones. Internationalization of mobile apps. Building and flashing Android OS. </td>
+        <td class="portfolio-tabletext"> Android Development </td>
+        <td class="portfolio-tabletext"> Medium </td>
+        <td class="portfolio-tabletext"> Develop using Java, Android SDK, Eclipse and Android Studio. Target layouts for tablets and phones. Internationalization of mobile apps. Building and flashing Android OS. </td>
       </tr>
       <tr>
-        <td> iOS Development </td>
-        <td> Low-Medium </td>
-        <td> Some experience with Objective-C and XCode in a Mac environment. </td>
+        <td class="portfolio-tabletext"> iOS Development </td>
+        <td class="portfolio-tabletext"> Low-Medium </td>
+        <td class="portfolio-tabletext"> Some experience with Objective-C and XCode in a Mac environment. </td>
       </tr>
       <tr>
-        <td> Debugging </td>
-        <td> Medium-High </td>
-        <td> Strong analytical skills for debugging running applications and post-mortem logs. </td>
+        <td class="portfolio-tabletext"> Debugging </td>
+        <td class="portfolio-tabletext"> Medium-High </td>
+        <td class="portfolio-tabletext"> Strong analytical skills for debugging running applications and post-mortem logs. </td>
       </tr>
       <!--
       <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td class="portfolio-tabletext"> </td>
+        <td class="portfolio-tabletext"> </td>
+        <td class="portfolio-tabletext"> </td>
       </tr>
       <tr>
-        <td> </td>
-        <td> </td>
-        <td> </td>
+        <td class="portfolio-tabletext"> </td>
+        <td class="portfolio-tabletext"> </td>
+        <td class="portfolio-tabletext"> </td>
       </tr>
       -->
       </tbody>
     </table>
   </div>
   <div class="tab-pane" id="softskills">
-    <h3>Soft Skills</h3>
+    <h5>Soft Skills</h5>
     <table class="table table-striped">
       <thead>
         <th class="col-xs-2"> Skill </th>
         <th class="col-xs-2"> Skill Level </th>
-        <th> Details </th>
+        <th class="portfolio-th"> Details </th>
       </thead>
     <tbody>
       <tr>
-        <td>Writing</td>
-        <td>High</td>
-        <td> Extensive experience writing technical documentation, marketing materials, blog posts, and community interactions. </td>
+        <td class="portfolio-tabletext">Writing</td>
+        <td class="portfolio-tabletext">High</td>
+        <td class="portfolio-tabletext"> Extensive experience writing technical documentation, marketing materials, blog posts, and community interactions. </td>
       </tr>
       <tr>
-        <td>Creative/Design</td>
-        <td>Medium</td>
-        <td>I am an experienced photographer, with more than 25 years experience in analog (film) techniques and 15 years using digital. Experienced with
+        <td class="portfolio-tabletext">Creative/Design</td>
+        <td class="portfolio-tabletext">Medium</td>
+        <td class="portfolio-tabletext">I am an experienced photographer, with more than 25 years experience in analog (film) techniques and 15 years using digital. Experienced with
         Lightroom and Photoshop to create photographic and graphic designs.</td>
       </tr>
       <tr>
-        <td>Personnel Management</td>
-        <td>Medium</td>
-        <td>Experienced creating and managing performance reviews, Performance Improvement Plans, and termination proceedings.</td>
+        <td class="portfolio-tabletext">Personnel Management</td>
+        <td class="portfolio-tabletext">Medium</td>
+        <td class="portfolio-tabletext">Experienced creating and managing performance reviews, Performance Improvement Plans, and termination proceedings.</td>
       </tr>
       <tr>
-        <td> Agile Leadership </td>
-        <td> Medium </td>
-        <td>
+        <td class="portfolio-tabletext"> Agile Leadership </td>
+        <td class="portfolio-tabletext"> Medium </td>
+        <td class="portfolio-tabletext">
         <p>
           I managed Agile teams with Scrum at Motorola and Klocwork.
         </p>
@@ -998,28 +997,28 @@ LinkedIn profile</a>.</p>
 
   </div>
   <div class="tab-pane" id="opensource">
-    <h3>Open Source Experience</h3>
+    <h5>Open Source Experience</h5>
     <div>
       <img src="/assets/images/sac_logo.png" width="114">
     </div>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>Date</th>
-          <th>Contribution ID</th>
-          <th>Details</th>
+          <th class="portfolio-th">Date</th>
+          <th class="portfolio-th">Contribution ID</th>
+          <th class="portfolio-th">Details</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Aug 15, 2012</td>
-          <td><a href="https://android-review.googlesource.com/#/c/41210/" target="_blank">I8af2e598</a></td>
-          <td>Initial contribution of Motorola MOTODEV tools code</td>
+          <td class="portfolio-tabletext">Aug 15, 2012</td>
+          <td class="portfolio-tabletext"><a href="https://android-review.googlesource.com/#/c/41210/" target="_blank">I8af2e598</a></td>
+          <td class="portfolio-tabletext">Initial contribution of Motorola MOTODEV tools code</td>
         </tr>
         <tr>
-          <td>Aug 21, 2012</td>
-          <td><a href="https://android-review.googlesource.com/#/c/41980/" target="_blank">I5e85c027</a></td>
-          <td>Scripted build files for MOTODEV tools</td>
+          <td class="portfolio-tabletext">Aug 21, 2012</td>
+          <td class="portfolio-tabletext"><a href="https://android-review.googlesource.com/#/c/41980/" target="_blank">I5e85c027</a></td>
+          <td class="portfolio-tabletext">Scripted build files for MOTODEV tools</td>
         </tr>
       </tbody>
     </table>
@@ -1030,71 +1029,71 @@ LinkedIn profile</a>.</p>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>Project</th>
-          <th>Role</th>
-          <th>Details</th>
+          <th class="portfolio-th">Project</th>
+          <th class="portfolio-th">Role</th>
+          <th class="portfolio-th">Details</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://projects.eclipse.org/projects/tools.andmore" target="_blank">Andmore</a></td>
-          <td>Project Co-lead<br />
+          <td class="portfolio-tabletext"><a href="https://projects.eclipse.org/projects/tools.andmore" target="_blank">Andmore</a></td>
+          <td class="portfolio-tabletext">Project Co-lead<br />
           (2014-present)</td>
-          <td>Andmore is an Eclipse Foundation project to enable development of Android applications using the Eclipse IDE. This is a fork of the Google ADT plugins, the former MOTODEV plugins, and plugins created by the project members.</td>
+          <td class="portfolio-tabletext">Andmore is an Eclipse Foundation project to enable development of Android applications using the Eclipse IDE. This is a fork of the Google ADT plugins, the former MOTODEV plugins, and plugins created by the project members.</td>
         </tr>
         <tr>
-          <td><a href="http://www.eclipse.org/downloads/packages/eclipse-mobile-developers/junor" target="_blank">Eclipse for Mobile Developers</a></td>
-          <td><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=376258" target="_blank">Creator/Maintainer</a><br />
+          <td class="portfolio-tabletext"><a href="http://www.eclipse.org/downloads/packages/eclipse-mobile-developers/junor" target="_blank">Eclipse for Mobile Developers</a></td>
+          <td class="portfolio-tabletext"><a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=376258" target="_blank">Creator/Maintainer</a><br />
           (2012-2013)</td>
-          <td>Eclipse for Mobile Developers was a pre-packaged set of tools for mobile developers. The package was the starting point for Android developers before Google began creating their own full Eclipse distribution.
+          <td class="portfolio-tabletext">Eclipse for Mobile Developers was a pre-packaged set of tools for mobile developers. The package was the starting point for Android developers before Google began creating their own full Eclipse distribution.
         </tr>
         <tr>
-          <td><a href="http://projects.eclipse.org/projects/tools.sequoyah" target="_blank">Eclipse Sequoyah</a></td>
-          <td>Project Lead<br />
+          <td class="portfolio-tabletext"><a href="http://projects.eclipse.org/projects/tools.sequoyah" target="_blank">Eclipse Sequoyah</a></td>
+          <td class="portfolio-tabletext">Project Lead<br />
           (2010-2013)</td>
-          <td>Sequoyah was an Eclipse project to create a platform- and language-neutral set of development tools for mobile devices. Sequoyah pulled in several other projects under one project leadership and release process. Sequoyah had some success with Android development, but little adoption elsewhere. As of 2014, Seqouyah is inactive and is in the process of being archived at the Eclipse Foundation.</td>
+          <td class="portfolio-tabletext">Sequoyah was an Eclipse project to create a platform- and language-neutral set of development tools for mobile devices. Sequoyah pulled in several other projects under one project leadership and release process. Sequoyah had some success with Android development, but little adoption elsewhere. As of 2014, Seqouyah is inactive and is in the process of being archived at the Eclipse Foundation.</td>
         </tr>
         <tr>
-          <td>EclipseCon Program Committee</td>
-          <td>Mobile and Embedded<br />
+          <td class="portfolio-tabletext">EclipseCon Program Committee</td>
+          <td class="portfolio-tabletext">Mobile and Embedded<br />
           (2010, 2012)</td>
-          <td>Served on the Embedded and Mobile Sub-committee in 2010. Chaired the sub-committee in 2012.</td>
+          <td class="portfolio-tabletext">Served on the Embedded and Mobile Sub-committee in 2010. Chaired the sub-committee in 2012.</td>
         </tr>
         <tr>
-          <td><a href="http://wiki.eclipse.org/DSDP/TML" target="_blank">Eclipse TmL</a></td>
-          <td>Project Lead<br />
+          <td class="portfolio-tabletext"><a href="http://wiki.eclipse.org/DSDP/TML" target="_blank">Eclipse TmL</a></td>
+          <td class="portfolio-tabletext">Project Lead<br />
           (2008-2010)</td>
-          <td>TmL was an Eclipse project to create a toolset for Mobile Linux. Motorola sponsored the project and appointed me as the project lead. The project was a participant in the first Eclipse Working Group called Pulsar. When Motorola adopted Android as a phone platform, some of the TmL project assets were deprecated. Other assets were moved into a new project named Sequoyah</td>
+          <td class="portfolio-tabletext">TmL was an Eclipse project to create a toolset for Mobile Linux. Motorola sponsored the project and appointed me as the project lead. The project was a participant in the first Eclipse Working Group called Pulsar. When Motorola adopted Android as a phone platform, some of the TmL project assets were deprecated. Other assets were moved into a new project named Sequoyah</td>
         </tr>
       </tbody>
     </table>
 
   </div>
   <div class="tab-pane" id="local">
-    <h3>Local Community Contributions</h3>
+    <h5>Local Community Contributions</h5>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>Date</th>
-          <th>Organization</th>
-          <th>Details</th>
+          <th class="portfolio-th">Date</th>
+          <th class="portfolio-th">Organization</th>
+          <th class="portfolio-th">Details</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>August 2002-September 2016</td>
-          <td>Hydro-Eakly Board of Education</td>
-          <td>Served as Member, Clerk, Vice President, and President for 14 years. </td>
+          <td class="portfolio-tabletext">August 2002-September 2016</td>
+          <td class="portfolio-tabletext">Hydro-Eakly Board of Education</td>
+          <td class="portfolio-tabletext">Served as Member, Clerk, Vice President, and President for 14 years. </td>
         </tr>
         <tr>
-          <td>2008-Present</td>
-          <td><a href="https://www.facebook.com/hydrochamber/" target="_blank">Hydro Chamber of Commerce</a></td>
-          <td>Annual <em>Photos with Santa</em> - Working with the volunteer fire department, I take photos with Santa and family portraits for free while the firemen give away bags of candy and food for families in need.</td>
+          <td class="portfolio-tabletext">2008-Present</td>
+          <td class="portfolio-tabletext"><a href="https://www.facebook.com/hydrochamber/" target="_blank">Hydro Chamber of Commerce</a></td>
+          <td class="portfolio-tabletext">Annual <em>Photos with Santa</em> - Working with the volunteer fire department, I take photos with Santa and family portraits for free while the firemen give away bags of candy and food for families in need.</td>
         </tr>
       </tbody>
       </table>
   </div>
-  <div class="tab-pane" id="cover">
+  <div class="tab-pane portfolio-tabletext" id="cover">
     <p>
 			<a href="https://www.google.com/maps/place/Hydro,+OK+73048/@35.5491774,-98.5830493,16z" title="Where the heck is Hydro, Oklahoma?" target="_blank">
 			<p align="right">
@@ -1120,7 +1119,7 @@ LinkedIn profile</a>.</p>
 							In addition to my professional work, I held elected office from 2002-2016 as a member of the District Board of Education. I held this post through 3 elections, serving several times as President of the Board. I&apos;ve worked with community leaders on &quot;get out the vote&quot; campaigns to raise funds for three building projects totaling fifteen million dollars.
 						</p>
 						<p>
-							I live 1 hour from Oklahoma City, where I&apos;ve worked as a remote employee for the last 16 years. I am able to travel for work up to 33% of the time. While I would accept an offer that requires relocation, I would also appreciate consideration for remote work.
+							I live 1 hour from Oklahoma City, where I&apos;ve worked as a remote employee since 2001. I am able to travel for work up to 33% of the time. While I would accept an offer that requires relocation, I would also appreciate consideration for remote work.
 						</p>
 						<p>
 							Regards
@@ -1136,6 +1135,7 @@ LinkedIn profile</a>.</p>
 			</div> <!-- end row -->
   </div>
 </div>
+<p><small><strong>Image credit:</strong> Copyright 2020, Eric H. Cloninger. Sunset at the Wichita Mountains National Wildlife Refuge, Medicine Park, Oklahoma</small></p>
 
 
       </div>
@@ -1185,7 +1185,7 @@ LinkedIn profile</a>.</p>
           </li>
           
         </ul>
-        <p class="copyright text-muted">Copyright &copy; Eric Cloninger 2019</p>
+        <p class="copyright text-muted">Copyright &copy; Eric Cloninger 2020</p>
       </div>
     </div>
   </div>
