@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-05T10:55:48-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eric Cloninger</title><author><name>Eric Cloninger</name></author><entry><title type="html">Cherry picking my Google Plus feed</title><link href="http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed.html" rel="alternate" type="text/html" title="Cherry picking my Google Plus feed" /><published>2019-02-07T00:00:00-06:00</published><updated>2019-02-07T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed.html">&lt;p&gt;Google+ (aka G+, aka Google Plus) is going to shut down soon. As a social site, G+ stopped being relevant years ago. I won&amp;rsquo;t go into why, because it won&amp;rsquo;t change the way Google manages their products.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-27T20:23:13-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eric Cloninger</title><author><name>Eric Cloninger</name></author><entry><title type="html">Your Op-Sec Sucks (and so does mine)</title><link href="http://localhost:4000/blog/2020/02/27/your-opsec-sucks-and-so-does-mine.html" rel="alternate" type="text/html" title="Your Op-Sec Sucks (and so does mine)" /><published>2020-02-27T19:14:41-06:00</published><updated>2020-02-27T19:14:41-06:00</updated><id>http://localhost:4000/blog/2020/02/27/your-opsec-sucks-and-so-does-mine</id><content type="html" xml:base="http://localhost:4000/blog/2020/02/27/your-opsec-sucks-and-so-does-mine.html">&lt;p&gt;A couple weeks back, I was on a flight leaving San Jose on a Friday morning.
+The flight left before dawn, filled to the brim with business travelers wanting
+to escape the Bay Area before a 3-day weekend.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I had my typical seat on an aisle in the second row of economy. My employer
+doesn’t let lowly managers book business class or first class, so I’m stuck in
+the back of the plane with the rest of the rabble. Fortunately, due to flying
+100,000 miles per year, I’m in the front of the back. Next to me, in the middle
+seat, was a man about my age. He smiled and nodded as I sat down, but otherwise
+made no attempt to communicate. At 5:45 AM, this is a blessing.&lt;/p&gt;
+
+&lt;p&gt;As we crossed through 10,000 feet, the flight attendants let us know that we
+were free to use our computers. My seat-mate promptly pulled out his trusty Dell
+17” laptop (with the extra 10-key) and connected to the airplane wi-fi. Pretty
+soon, his elbows started poking into my sides as he moved the mouse and typed.
+I tried to shift my position, but it did no good. So, I put on my headphones,
+pulled my hoodie up, put on my sunglasses, and pretended to sleep.&lt;/p&gt;
+
+&lt;p&gt;What I actually did was watch everything he typed. I quickly learned his name
+(Roger) and his employer [redacted]. I learned that he was the CMO of a 2,000
+person company located in Dallas, with offices in 10 cities worldwide. I watched
+as he had a conversation over the LinkedIn chat system with a person they were
+planning to offer a director-level position to. I know what they were planning
+to pay him ($220,000 plus 25% performance bonus). I know the person currently
+holding this position is going to be surprised when they replace him.&lt;/p&gt;
+
+&lt;p&gt;Roger was using Outlook (not OWA) on his Dell and was not using a VPN. He pulled
+files from their SharePoint and worked on confidential slides for an upcoming
+board meeting.&lt;/p&gt;
+
+&lt;p&gt;This is not an isolated incident. It happens nearly every time I fly to some
+extent or another. I’m not nosy by nature, but when you’re stuck in a metal
+tube for hours on end, you need some entertainment besides the 3 episodes of
+Narcos downloaded on a tablet.&lt;/p&gt;
+
+&lt;p&gt;In December, I had an almost identical experience. Alex was sitting in coach,
+which annoyed him to no end. He had a class ring (2005, Texas A&amp;amp;M) and another
+from his military service. He was fit, smartly dressed, and used a Macbook Air.
+Every time a flight attendant walked past and moved the curtain to first class,
+he was visibly annoyed because the curtain touched his shoes. Each time, he
+would demonstratively move the curtain off his shoes, rather than moving his
+feet. When I put my arm on the armrest, he asked (with all the vitriol you can
+imagine) “Do you mind?”&lt;/p&gt;
+
+&lt;p&gt;Alex is a Regional Sales director for a company in Dallas in the cloud business.
+They have a project going with one of the most well-known companies in the world
+and the results of this project will have an impact on their revenues. The
+roll-out was failing and the big company was about to make a very public
+withdrawal. The panic was noticeable as he chatted with his sales reps and the
+VP of engineering over Slack. Again, I made note of the names as I pretended to
+sleep.&lt;/p&gt;
+
+&lt;p&gt;This time, I did not consider telling him of his op-sec failures, because, quite
+honestly, I hate to see a prick like that succeed. Sorry (not sorry).&lt;/p&gt;
+
+&lt;p&gt;Who’s at fault here? These guys are sales/marketing people and not security pros.
+However, they were both working for technology companies and we’re long past the
+point where anyone with a financial interest in a company can play dumb when it
+comes to security. The fault, though, lies with the CISO that let them into the
+open world without drilling op-sec into their brains.&lt;/p&gt;
+
+&lt;p&gt;In a way, I have my own failures, but it’s not letting people read over my
+shoulder on an airplane. I have a $35 &lt;a href=&quot;https://www.amazon.com/3M-Protects-confidential-information-PFNAP002/dp/B006OZEIKS&quot;&gt;3M privacy screen&lt;/a&gt;
+on my laptop and it only comes off if I want the person to read over my shoulder.&lt;/p&gt;</content><author><name>Eric Cloninger</name></author><category term="blog" /><category term="work" /><category term="travel" /><summary type="html">A couple weeks back, I was on a flight leaving San Jose on a Friday morning. The flight left before dawn, filled to the brim with business travelers wanting to escape the Bay Area before a 3-day weekend.</summary></entry><entry><title type="html">Cherry picking my Google Plus feed</title><link href="http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed.html" rel="alternate" type="text/html" title="Cherry picking my Google Plus feed" /><published>2019-02-07T00:00:00-06:00</published><updated>2019-02-07T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/07/Cherry-picking-my-Google-Plus-feed.html">&lt;p&gt;Google+ (aka G+, aka Google Plus) is going to shut down soon. As a social site, G+ stopped being relevant years ago. I won&amp;rsquo;t go into why, because it won&amp;rsquo;t change the way Google manages their products.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -786,194 +851,4 @@ sudo update-alternatives --set javaws /usr/lib/jvm/java-6-sun/jre/bin/javaws&lt;
 	&lt;/p&gt;
 	&lt;p&gt;
 		Eric
-	&lt;/p&gt;</content><author><name>Eric Cloninger</name></author><category term="blog" /><category term="motodev" /><summary type="html">Hello everyone, Two weeks ago at Google I/O, we saw the release of a new Android version and new tools for the SDK. These tools had been anticipated for some time and I wanted to update you on where we stand with MOTODEV Studio. When we announced MOTODEV Studio 4.0 in May, I pointed out in this blog post that we were splitting the concept of the MOTODEV tools into 2 pieces. The standalone product with the installer was tightly integrated with the ADT plugins and requires work on our part whenever ADT is updated. At the same time, we also announced a new &quot;core plugins&quot; feature that can be installed into Eclipse that has no dependencies on ADT whatsoever. While the look of the two versions is different, most of the functionality of the full product exists in the core plugins . The full product is meant to be stable, but would only be updated on our quarterly schedule. When new versions of ADT come out, they may or may not work with the existing full MOTODEV Studio but they should work with Eclipse and the MOTODEV core plugins. For this reason, we locked MOTODEV Studio 4.0 to ADT 18 in order to prevent updates that would result in a breakage due to API changes beyond our control. Unfortunately, the SDK Manager allowed developers to update their SDK tools and SDK 20 has problems with ADT 18. We're working on a new version of MOTODEV Studio that has ADT 20 (or 20.0.1) already built-in that works with SDK tools 20. I anticipate you will have access to it in a few weeks. Until that time, you should not update the SDK tools or attempt to manually install ADT 20 into MOTODEV Studio. If you are using the MOTODEV core plugins with Eclipse, you can use ADT 20 and SDK Tools 20. Roll back SDK tools If you've already updated to SDK Tools 20 and you're using the installed MOTODEV Studio, there's a good chance that things will not work correctly. Especially when debugging with the emulator. If you want to continue using the MOTODEV Studio tools to develop for Ice Cream Sandwich and earlier, you can download the older SDK tools version 19 at http://dl-ssl.google.com/android/repository/tools_r19-windows.zip . Mac OSX and Linux users will have slightly different file names. Using the links above as a template, you can download older versions of the SDK by providing a different release number. The same formula works for the ADT plugins, which can be found at http://dl.google.com/android/ADT-18.0.0.zip . Using Eclipse For developers who need to target Jelly Bean before MOTODEV Studio 4.1 is released, the best solution is to use a clean installation of Eclipse, such as the new Eclipse for Mobile Developers package and update your tools to the latest release (version 20 at this time). Unzip the Eclipse package into a convenient location on your development machine. Once you have Eclipse downloaded and installed, launch the IDE and use the Marketplace client (Help&amp;gt;Eclipse Marketplace) to locate either the Android Development Tools or the MOTODEV Core Plugins . You can also install from the web link by dragging the button labeled &quot;Install&quot; onto your running version of Eclipse. The MOTODEV core plugins from the Eclipse Marketplace are linked to depend on ADT, so if you want to install both, just use the MOTODEV link. If you're more comfortable with the Eclipse Update Manager rather than the Marketplace Client, you can install the MOTODEV core plugins from our site as well. Use Help&amp;gt;Install New Software and create a new update site whose link is https://studio-android.motodevupdate.com/android/4.0/basic . If you find any problems using MOTODEV Studio with ADT 18 or the core plugins with ADT 20, please let us know on the discussion boards . Thank you for using MOTODEV Studio Eric</summary></entry><entry><title type="html">MOTODEV Studio 4.0</title><link href="http://localhost:4000/blog/2012/04/25/MOTODEV-Studio-4.0.html" rel="alternate" type="text/html" title="MOTODEV Studio 4.0" /><published>2012-04-25T00:00:00-05:00</published><updated>2012-04-25T00:00:00-05:00</updated><id>http://localhost:4000/blog/2012/04/25/MOTODEV-Studio-4.0</id><content type="html" xml:base="http://localhost:4000/blog/2012/04/25/MOTODEV-Studio-4.0.html">&lt;p&gt;
-		Hello everyone,
-	&lt;/p&gt;
-	&lt;p&gt;
-		It's time again for for a release of MOTODEV Studio. I'd like to invite you to get a cup of coffee or a cold beverage before starting to read this article. There's stuff in here you'll want to read and it will affect how you use MOTODEV Studio now and in the future. I'll try not to bore you too much, but there are some changes and they will affect some of you.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		Dependencies
-	&lt;/h4&gt;
-	&lt;p&gt;
-		I said I'll try not to bore you, but I think some background is helpful. If you want the &lt;a target=&quot;_blank&quot; href=&quot;http://en.wiktionary.org/wiki/TL;DR&quot; rel=&quot;nofollow&quot;&gt;TL;DR&lt;/a&gt; version, skip to the next major heading titled &quot;&lt;em&gt;If You Read Nothing Else, Read This&lt;/em&gt;&quot;.
-	&lt;/p&gt;
-	&lt;p&gt;
-		MOTODEV Studio consists of several things:
-	&lt;/p&gt;
-	&lt;ul&gt;
-		&lt;li&gt;An installer that works on Windows, Linux, and Mac OS &lt;/li&gt;
-		&lt;li&gt;The most recent version of Eclipse&lt;/li&gt;
-		&lt;li&gt;The most recent Google ADT plugins&lt;/li&gt;
-		&lt;li&gt;Tools and plugins that we've written, such as code snippets, App Validator, localization editor, etc.&lt;/li&gt;
-	&lt;/ul&gt;
-	&lt;p&gt;
-		In the early days of MOTODEV Studio, we built ADT ourselves because we wanted to make some changes to the package. ADT needed some improvements and we felt we could provide them. We realized early on that this was a bad idea with the pace of ADT releases. Eventually we got where we were just bundling ADT as it came from Google.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Some of the MOTODEV Studio features that we find useful call APIs inside ADT. Some of the conveniences, such as our debugger launch configuration, use information gleaned from ADT to populate the launch dialog. In other words, we came to depend on ADT and that dependency comes at a price.
-	&lt;/p&gt;
-	&lt;p&gt;
-		If you've been using MOTODEV Studio for a while and have been reading our discussion boards, you've no doubt seen some posts addressing new ADT releases. When ADT releases come out, we stop development for a day or two, install the plugins on our test machines, and determine if the plugins are safe for everyone. Some times they are, and some times we have to plan an interim release. The typical causes of interim releases are an API or functionality change inside ADT, but some times it's a command line change for one of the SDK tools, such as the emulator. We can (and do) watch the external repo for the SDK tools and this helps us plan our activities, but until the branch is tagged we really don't know what the final results will be.
-	&lt;/p&gt;
-	&lt;p&gt;
-		As the pace of tools releases have accelerated over the last six months, we came to realize that we could not sustain the pace of testing and interim releases to MOTODEV Studio. This is where the change comes in...
-	&lt;/p&gt;
-	&lt;h4&gt;
-		If You Read Nothing Else, Read This
-	&lt;/h4&gt;
-	&lt;p&gt;
-		If you've been using MOTODEV Studio in previous releases, I hope you've seen that we try to make the transition between updates as painless as possible. We'll try to do the same with this release, but you have a decision to make and it will affect how you install MOTODEV Studio now and in the future.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Regardless of which choice you make, we will continue to provide support for you on the &lt;em&gt;MOTODEV Studio Discussion Board&lt;/em&gt; . Also, your projects and workspaces will work no matter which version you use, so if you decide to use one and change your mind later, your code and settings are safe.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		Riddle Me This
-	&lt;/h4&gt;
-	&lt;p&gt;
-		Answer this question and use it to guide your actions: &lt;em&gt;&lt;strong&gt;Do I always want the latest plugins and SDK tools the moment the Android tools team releases them?&lt;/strong&gt;&lt;/em&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-		If the answer to that question is &quot;&lt;em&gt;No&lt;/em&gt;&quot;, then you should continue to install MOTODEV Studio the way you always have. Just &lt;em&gt;download the install package&lt;/em&gt; from our web site or the Eclipse plugin archive and work the way you always have. Or choose &quot;&lt;em&gt;Update MOTODEV Studio&lt;/em&gt;&quot; from the &lt;em&gt;MOTODEV&lt;/em&gt; menu.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Why would you do this? Why wouldn't you always take the latest SDK? In most cases, it's for stability. If you're in the middle of a project, you don't want to introduce changes from underneath unless you need them. Maybe there's a bug fix in the tools you need, in which case it's perfectly valid to update, but most of the time you may want to wait for the end of the project cycle before updating your tools.
-	&lt;/p&gt;
-	&lt;p&gt;
-		By choosing this route, you accept that we (the MOTODEV team) may go the full release cycle without an interim update. During which time the Android tools team might've released 2 ADT updates and a newer set of SDK tools. We'll have those integrated in the next release of MOTODEV Studio, but it may be as long as 3 or 4 months until that time.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		MOTODEV Core Plugins
-	&lt;/h4&gt;
-	&lt;p&gt;
-		&lt;img style=&quot;margin:0 10px 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;/assets/images/blog/2012/04/25/MOTODEV-Studio-4.0/original(1).jpg&quot; align=&quot;left&quot;&gt;If you answered &quot;Yes&quot; to my question above, then you will need to take a different route. If you're updating the SDK and plugins frequently, we assume you're a &lt;em&gt;bleeding edge&lt;/em&gt; type of developer. For you, we've created a slimmer set of tools that we call the &quot;MOTODEV Core Plugins&quot;. This package has no dependencies on ADT yet it delivers much of the functionality of the full product. Using this package, you can update Eclipse and/or ADT independent of the MOTODEV plugins and everything should continue to work. You will notice that the locations of things will have moved to accommodate working inside the Java Perspective, but the functionality should still be there. There is a complete list of differences in the &lt;em&gt;release notes&lt;/em&gt; under the &lt;em&gt;New Packaging Option&lt;/em&gt; section.
-	&lt;/p&gt;
-	&lt;p&gt;
-		The tradeoff is that the MOTODEV Core Plugins are truly a set of plugins and there is no installer. The burden of creating and maintaining your development environment falls on you. You will need to download and install Eclipse on your own prior to installing the MOTODEV Core Plugins. Creating an update site for the MOTODEV Core Plugins is no different than installing the ADT plugins--it's just another update site. It's not a difficult task and we've documented the steps you need to go through in our &lt;em&gt;installation guide&lt;/em&gt; .
-	&lt;/p&gt;
-	&lt;p&gt;
-		&lt;img style=&quot;margin:0 10px 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;/assets/images/blog/2012/04/25/MOTODEV-Studio-4.0/original(2).jpg&quot;&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-		We are looking forward to people using this new package. We've wanted to get to this point for quite some time and now that we're there, we hope it makes your development easier. If you have problems or suggestions, let us know on our &lt;em&gt;discussion boards&lt;/em&gt; .
-	&lt;/p&gt;
-	&lt;p&gt;
-		We're planning some documentation for users of the MOTODEV Core Plugins. Where MOTODEV Studio users had a perspective to work in, these plugins access the MOTODEV features inside other perspectives. This will require some time to create, but watch the discussion boards and the &lt;a target=&quot;_blank&quot; href=&quot;http://twitter.com/#!/motodev&quot; rel=&quot;nofollow&quot;&gt;@motodev&lt;/a&gt; twitter account for announcements.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		In Other News
-	&lt;/h4&gt;
-	&lt;p&gt;
-		Now that we've gotten the big one out of the way, let's talk about the other changes we've made to MOTODEV Studio.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		Code Generation
-	&lt;/h4&gt;
-	&lt;p&gt;
-		I released my first app on Google Play a few weeks ago. I'm biased, but I have to say that I love our feature that takes the contents of a layout and generates the Java code for it. It makes the tedious actions much less of a burden. If you haven't noticed this in the past, definitely give it a look.
-	&lt;/p&gt;
-	&lt;p&gt;
-		We've added to the existing tools to include code generation for menus. Start by creating res/menu/menu.xml, then choose &quot;Generate Java Code Based on Menu XML Files&quot; from the MOTODEV menu. You'll get a wizard dialog that will show you all your projects and your Java source files that can handle the menu code.
-	&lt;/p&gt;
-	&lt;p&gt;
-		&lt;img style=&quot;margin:0 10px 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;/assets/images/blog/2012/04/25/MOTODEV-Studio-4.0/original(3).jpg&quot;&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-		For example, consider this menu definition:
-	&lt;/p&gt;
-	&lt;pre&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&lt;br&gt;&amp;lt;menu xmlns:android=&quot;
-			&lt;a target=&quot;_blank&quot; href=&quot;http://schemas.android.com/apk/res/android&quot; rel=&quot;nofollow&quot;&gt;http://schemas.android.com/apk/res/android&lt;/a&gt;
-			&quot; &amp;gt;&lt;br&gt; &amp;lt;item android:id=&quot;@+id/about&quot; android:title=&quot;@string/about&quot;&amp;gt;&amp;lt;/item&amp;gt;&lt;br&gt; &amp;lt;item android:id=&quot;@+id/settings&quot; android:title=&quot;@string/settings&quot;&amp;gt;&amp;lt;/item&amp;gt;&lt;br&gt; &amp;lt;item android:id=&quot;@+id/new_game&quot; android:title=&quot;@string/new_game&quot;&amp;gt;&amp;lt;/item&amp;gt;&lt;br&gt; &amp;lt;item android:id=&quot;@+id/undo&quot; android:title=&quot;@string/undo&quot;&amp;gt;&amp;lt;/item&amp;gt;&lt;br&gt;&amp;lt;/menu&amp;gt;
-	&lt;/pre&gt;
-	&lt;p&gt;
-		The result is the Java code below. It's not groundbreaking, but it does save you a lot of typing. If you modify the menu.xml later in your project, you can run the wizard again to regenerate the &lt;em&gt;onOptionItemsSelected()&lt;/em&gt; method.
-	&lt;/p&gt;
-	&lt;pre&gt;public boolean onCreateOptionsMenu(Menu menu) {
-			MenuInflater inflater = getMenuInflater();
-			inflater.inflate(R.menu.main, menu);
-			return true;
-			}
-
-			public boolean onOptionsItemSelected(MenuItem item) {
-			if (item.getItemId() == R.id.about) {
-			} else if (item.getItemId() == R.id.settings) {
-			} else if (item.getItemId() == R.id.new_game) {
-			} else {
-			return super.onOptionsItemSelected(item);
-			}
-			return true;
-			}
-	&lt;/pre&gt;
-	&lt;p&gt;
-		If you're using the MOTODEV Core Plugins, you'll have to use the existing Eclipse menu hierarchy. For example, right click on a Java file in the Project Explorer, choose the Source sub-menu and you'll notice the MOTODEV code generation items at the bottom of the list.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		Database Management
-	&lt;/h4&gt;
-	&lt;p&gt;
-		We've been shipping a database tool since the first releases of MOTODEV Studio. This is one of the pieces that needed a lot of cleanup when we refactored the code. While we were in there, we spent some time cleaning up the user interface and removing pieces that didn't make sense for SQLite databases. The result is a much cleaner and easier to use tool. If you ship a database with your app or if you need to inspect databases as part of your debugging, you'll appreciate this feature.
-	&lt;/p&gt;
-	&lt;p&gt;
-		&lt;img style=&quot;margin:0 10px 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;/assets/images/blog/2012/04/25/MOTODEV-Studio-4.0/original(4).jpg&quot;&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-		The database feature is in its own perspective because there are quite a few different views. Go to &quot;&lt;em&gt;Window-&amp;gt;Open Perspective-&amp;gt;Other&lt;/em&gt;&quot; and find the &lt;em&gt;MOTODEV Database&lt;/em&gt; perspective. Once you've opened it the first time, you can select it from the perspective chooser in the upper right corner of the IDE.
-	&lt;/p&gt;
-	&lt;p&gt;
-		You can use the database perspective with any running emulator. You can also use it with developer phones that have root permissions enabled for the /data partition.
-	&lt;/p&gt;
-	&lt;p&gt;
-		If your phone doesn't have root access, don't despair. Write your databases to the SD card by modifying the &lt;a target=&quot;_blank&quot; href=&quot;http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html#openOrCreateDatabase(java.lang.String,%20android.database.sqlite.SQLiteDatabase.CursorFactory,%20android.database.DatabaseErrorHandler)&quot; rel=&quot;nofollow&quot;&gt;SQLiteDatabase.openOrCreateDatabase()&lt;/a&gt; call with the full path to the card. Once you've created the SD card database, mount the phone as removable storage and use the &quot;Map Database&quot; feature to access the contents of the database on your production phone. Once you've solved your problems, reset the database API back to the default partition so your data remains secure.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		App Validator
-	&lt;/h4&gt;
-	&lt;p&gt;
-		You should be using the App Validator to pre-flight your apps before you distribute them. It provides many tests that can keep you from having to do quick turnaround releases.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Since the App Validator was released nearly two years ago, we've spent most of our efforts on providing new types of tests. For this release, we've added some new tests, but we've also focused on usability. In addition to working from the Problems view, the App Validator now supports &lt;em&gt;Quick Fixes&lt;/em&gt;. If the tool can determine the best course of action for you to fix your app, it will put a light bulb next to the icon in the problems view or in the left margin of the editor window. To fix the problem, right click and choose &lt;em&gt;Quick Fix&lt;/em&gt;. Follow the wizard instructions after that.
-	&lt;/p&gt;
-	&lt;p&gt;
-		&lt;img style=&quot;margin:0 10px 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;/assets/images/blog/2012/04/25/MOTODEV-Studio-4.0/original(5).jpg&quot;&gt;
-	&lt;/p&gt;
-	&lt;p&gt;
-		App Validator is available as a &lt;em&gt;stand-alone tool&lt;/em&gt; , which will benefit larger development teams and companies that utilize continuous build systems. By putting App Validator into your build scripts, you can watch for new problems as they arise.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Developers who have unique conditions that need to be tested can customize the App Validator with the &lt;em&gt;App Validator SDK&lt;/em&gt; . There are samples and documentation to guide you to extending this powerful tool to meet your own needs. We know you don't want to create a new tool from scratch, which is why we've distilled the SDK down to just the pieces you need to test and report on your unique conditions.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		Version numbering
-	&lt;/h4&gt;
-	&lt;p&gt;
-		We bumped the version number to 4.0. Normally we bump the number when we go to the next release of Eclipse. This time we bumped the version number because we made some significant changes to the architecture and release mechanisms of MOTODEV Studio. We felt like this was a significant change and we wanted to cement in users minds that something big was up.
-	&lt;/p&gt;
-	&lt;h4&gt;
-		The Road Ahead
-	&lt;/h4&gt;
-	&lt;p&gt;
-		We're starting to look at what we're going to do for Studio 4.1. We're doing some investigations and we're starting to determine what features we will support for the next release.
-	&lt;/p&gt;
-	&lt;p&gt;
-		We're planning to work on a &lt;a target=&quot;_blank&quot; href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=376258&quot; rel=&quot;nofollow&quot;&gt;new Eclipse package&lt;/a&gt; that developers can use as the basis for their Android work. This is a community project that will help all developers, regardless of whether they use MOTODEV Studio or just want to use the basic features of Eclipse + ADT. It will also be what we use for the foundation of the next version of MOTODEV Studio and what we will use to test our plugins against.
-	&lt;/p&gt;
-	&lt;p&gt;
-		As we were finishing up the release efforts for Studio 4.0, the Android tools team released a preview of ADT 20. We suspect we will get requests to support the release in the full version of MOTODEV Studio, but we have a busy schedule the next few months. Our first look at the package showed many changes in ADT 20. When Google releases this package to the world, we'll evaluate and report on what we can do.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Support for C code with the Native Development Kit (NDK) is coming in ADT20. This is similar to a feature that we integrated into MOTODEV Studio from a contribution to the Eclipse Sequoyah project. The contributor who submitted to Sequoyah also submitted to the AOSP, where the code is a better fit. When ADT 20 comes out with NDK support, we will begin to retire the MOTODEV Studio feature.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Thanks again for using MOTODEV Studio and App Validator. I hope this release is something you will enjoy and use to create great apps. Let us know if you have ideas for things we can do to make your lives easier.
-	&lt;/p&gt;
-	&lt;p&gt;
-		Eric Cloninger, Sr. Product Manager, MOTODEV Tools
-	&lt;/p&gt;
-	&lt;p&gt;
-		Greg Wilson, Developer Evangelist, Motorola Mobility
-	&lt;/p&gt;
-	&lt;p&gt;
-		Julia Perdigueiro, Technical Lead, MOTODEV Tools
-	&lt;/p&gt;</content><author><name>Eric Cloninger</name></author><category term="blog" /><category term="motodev" /><summary type="html">Hello everyone, It's time again for for a release of MOTODEV Studio. I'd like to invite you to get a cup of coffee or a cold beverage before starting to read this article. There's stuff in here you'll want to read and it will affect how you use MOTODEV Studio now and in the future. I'll try not to bore you too much, but there are some changes and they will affect some of you. Dependencies I said I'll try not to bore you, but I think some background is helpful. If you want the TL;DR version, skip to the next major heading titled &quot;If You Read Nothing Else, Read This&quot;. MOTODEV Studio consists of several things: An installer that works on Windows, Linux, and Mac OS The most recent version of Eclipse The most recent Google ADT plugins Tools and plugins that we've written, such as code snippets, App Validator, localization editor, etc. In the early days of MOTODEV Studio, we built ADT ourselves because we wanted to make some changes to the package. ADT needed some improvements and we felt we could provide them. We realized early on that this was a bad idea with the pace of ADT releases. Eventually we got where we were just bundling ADT as it came from Google. Some of the MOTODEV Studio features that we find useful call APIs inside ADT. Some of the conveniences, such as our debugger launch configuration, use information gleaned from ADT to populate the launch dialog. In other words, we came to depend on ADT and that dependency comes at a price. If you've been using MOTODEV Studio for a while and have been reading our discussion boards, you've no doubt seen some posts addressing new ADT releases. When ADT releases come out, we stop development for a day or two, install the plugins on our test machines, and determine if the plugins are safe for everyone. Some times they are, and some times we have to plan an interim release. The typical causes of interim releases are an API or functionality change inside ADT, but some times it's a command line change for one of the SDK tools, such as the emulator. We can (and do) watch the external repo for the SDK tools and this helps us plan our activities, but until the branch is tagged we really don't know what the final results will be. As the pace of tools releases have accelerated over the last six months, we came to realize that we could not sustain the pace of testing and interim releases to MOTODEV Studio. This is where the change comes in... If You Read Nothing Else, Read This If you've been using MOTODEV Studio in previous releases, I hope you've seen that we try to make the transition between updates as painless as possible. We'll try to do the same with this release, but you have a decision to make and it will affect how you install MOTODEV Studio now and in the future. Regardless of which choice you make, we will continue to provide support for you on the MOTODEV Studio Discussion Board . Also, your projects and workspaces will work no matter which version you use, so if you decide to use one and change your mind later, your code and settings are safe. Riddle Me This Answer this question and use it to guide your actions: Do I always want the latest plugins and SDK tools the moment the Android tools team releases them? If the answer to that question is &quot;No&quot;, then you should continue to install MOTODEV Studio the way you always have. Just download the install package from our web site or the Eclipse plugin archive and work the way you always have. Or choose &quot;Update MOTODEV Studio&quot; from the MOTODEV menu. Why would you do this? Why wouldn't you always take the latest SDK? In most cases, it's for stability. If you're in the middle of a project, you don't want to introduce changes from underneath unless you need them. Maybe there's a bug fix in the tools you need, in which case it's perfectly valid to update, but most of the time you may want to wait for the end of the project cycle before updating your tools. By choosing this route, you accept that we (the MOTODEV team) may go the full release cycle without an interim update. During which time the Android tools team might've released 2 ADT updates and a newer set of SDK tools. We'll have those integrated in the next release of MOTODEV Studio, but it may be as long as 3 or 4 months until that time. MOTODEV Core Plugins If you answered &quot;Yes&quot; to my question above, then you will need to take a different route. If you're updating the SDK and plugins frequently, we assume you're a bleeding edge type of developer. For you, we've created a slimmer set of tools that we call the &quot;MOTODEV Core Plugins&quot;. This package has no dependencies on ADT yet it delivers much of the functionality of the full product. Using this package, you can update Eclipse and/or ADT independent of the MOTODEV plugins and everything should continue to work. You will notice that the locations of things will have moved to accommodate working inside the Java Perspective, but the functionality should still be there. There is a complete list of differences in the release notes under the New Packaging Option section. The tradeoff is that the MOTODEV Core Plugins are truly a set of plugins and there is no installer. The burden of creating and maintaining your development environment falls on you. You will need to download and install Eclipse on your own prior to installing the MOTODEV Core Plugins. Creating an update site for the MOTODEV Core Plugins is no different than installing the ADT plugins--it's just another update site. It's not a difficult task and we've documented the steps you need to go through in our installation guide . We are looking forward to people using this new package. We've wanted to get to this point for quite some time and now that we're there, we hope it makes your development easier. If you have problems or suggestions, let us know on our discussion boards . We're planning some documentation for users of the MOTODEV Core Plugins. Where MOTODEV Studio users had a perspective to work in, these plugins access the MOTODEV features inside other perspectives. This will require some time to create, but watch the discussion boards and the @motodev twitter account for announcements. In Other News Now that we've gotten the big one out of the way, let's talk about the other changes we've made to MOTODEV Studio. Code Generation I released my first app on Google Play a few weeks ago. I'm biased, but I have to say that I love our feature that takes the contents of a layout and generates the Java code for it. It makes the tedious actions much less of a burden. If you haven't noticed this in the past, definitely give it a look. We've added to the existing tools to include code generation for menus. Start by creating res/menu/menu.xml, then choose &quot;Generate Java Code Based on Menu XML Files&quot; from the MOTODEV menu. You'll get a wizard dialog that will show you all your projects and your Java source files that can handle the menu code. For example, consider this menu definition: &amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&amp;lt;menu xmlns:android=&quot; http://schemas.android.com/apk/res/android &quot; &amp;gt; &amp;lt;item android:id=&quot;@+id/about&quot; android:title=&quot;@string/about&quot;&amp;gt;&amp;lt;/item&amp;gt; &amp;lt;item android:id=&quot;@+id/settings&quot; android:title=&quot;@string/settings&quot;&amp;gt;&amp;lt;/item&amp;gt; &amp;lt;item android:id=&quot;@+id/new_game&quot; android:title=&quot;@string/new_game&quot;&amp;gt;&amp;lt;/item&amp;gt; &amp;lt;item android:id=&quot;@+id/undo&quot; android:title=&quot;@string/undo&quot;&amp;gt;&amp;lt;/item&amp;gt;&amp;lt;/menu&amp;gt; The result is the Java code below. It's not groundbreaking, but it does save you a lot of typing. If you modify the menu.xml later in your project, you can run the wizard again to regenerate the onOptionItemsSelected() method. public boolean onCreateOptionsMenu(Menu menu) { MenuInflater inflater = getMenuInflater(); inflater.inflate(R.menu.main, menu); return true; }</summary></entry></feed>
+	&lt;/p&gt;</content><author><name>Eric Cloninger</name></author><category term="blog" /><category term="motodev" /><summary type="html">Hello everyone, Two weeks ago at Google I/O, we saw the release of a new Android version and new tools for the SDK. These tools had been anticipated for some time and I wanted to update you on where we stand with MOTODEV Studio. When we announced MOTODEV Studio 4.0 in May, I pointed out in this blog post that we were splitting the concept of the MOTODEV tools into 2 pieces. The standalone product with the installer was tightly integrated with the ADT plugins and requires work on our part whenever ADT is updated. At the same time, we also announced a new &quot;core plugins&quot; feature that can be installed into Eclipse that has no dependencies on ADT whatsoever. While the look of the two versions is different, most of the functionality of the full product exists in the core plugins . The full product is meant to be stable, but would only be updated on our quarterly schedule. When new versions of ADT come out, they may or may not work with the existing full MOTODEV Studio but they should work with Eclipse and the MOTODEV core plugins. For this reason, we locked MOTODEV Studio 4.0 to ADT 18 in order to prevent updates that would result in a breakage due to API changes beyond our control. Unfortunately, the SDK Manager allowed developers to update their SDK tools and SDK 20 has problems with ADT 18. We're working on a new version of MOTODEV Studio that has ADT 20 (or 20.0.1) already built-in that works with SDK tools 20. I anticipate you will have access to it in a few weeks. Until that time, you should not update the SDK tools or attempt to manually install ADT 20 into MOTODEV Studio. If you are using the MOTODEV core plugins with Eclipse, you can use ADT 20 and SDK Tools 20. Roll back SDK tools If you've already updated to SDK Tools 20 and you're using the installed MOTODEV Studio, there's a good chance that things will not work correctly. Especially when debugging with the emulator. If you want to continue using the MOTODEV Studio tools to develop for Ice Cream Sandwich and earlier, you can download the older SDK tools version 19 at http://dl-ssl.google.com/android/repository/tools_r19-windows.zip . Mac OSX and Linux users will have slightly different file names. Using the links above as a template, you can download older versions of the SDK by providing a different release number. The same formula works for the ADT plugins, which can be found at http://dl.google.com/android/ADT-18.0.0.zip . Using Eclipse For developers who need to target Jelly Bean before MOTODEV Studio 4.1 is released, the best solution is to use a clean installation of Eclipse, such as the new Eclipse for Mobile Developers package and update your tools to the latest release (version 20 at this time). Unzip the Eclipse package into a convenient location on your development machine. Once you have Eclipse downloaded and installed, launch the IDE and use the Marketplace client (Help&amp;gt;Eclipse Marketplace) to locate either the Android Development Tools or the MOTODEV Core Plugins . You can also install from the web link by dragging the button labeled &quot;Install&quot; onto your running version of Eclipse. The MOTODEV core plugins from the Eclipse Marketplace are linked to depend on ADT, so if you want to install both, just use the MOTODEV link. If you're more comfortable with the Eclipse Update Manager rather than the Marketplace Client, you can install the MOTODEV core plugins from our site as well. Use Help&amp;gt;Install New Software and create a new update site whose link is https://studio-android.motodevupdate.com/android/4.0/basic . If you find any problems using MOTODEV Studio with ADT 18 or the core plugins with ADT 20, please let us know on the discussion boards . Thank you for using MOTODEV Studio Eric</summary></entry></feed>
