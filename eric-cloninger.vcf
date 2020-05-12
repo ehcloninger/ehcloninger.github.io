@@ -1,0 +1,25 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Eric Cloninger
+N:Cloninger;Eric;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:ericc@pobox.com
+EMAIL;TYPE=INTERNET:ehcloninger@gmail.com
+EMAIL;TYPE=INTERNET;TYPE=WORK:e.cloninger@samsung.com
+TEL;TYPE=CELL:+1 (405) 823-0709
+item1.TEL:+1 (405) 458-0458
+item1.X-ABLabel:googleVoice
+TEL;TYPE=WORK:+1 (405) 219-9464
+ADR;TYPE=HOME:;;910 N Peck Ave;Hydro;OK;73048;US;910 N Peck Ave\nHydro\, OK
+  73048\nUS
+item2.ADR:;;PO Box 33;Hydro;OK;73048;US;PO Box 33\nHydro\, OK 73048\nUS
+item2.X-ABLabel:US Mail
+BDAY:16010101
+URL;TYPE=HOME:http\://www.ericcloninger.com
+item3.URL:http\://portfolio.ericcloninger.com
+item3.X-ABLabel:PROFILE
+NOTE:Google Talk/Hangouts\: ehcloninger@gmail.com\nSkype\:ehcloninger\nGend
+ er: Male
+PHOTO:https://lh6.googleusercontent.com/-6NsvX2YqeFw/V-7zYPq_LjI/AAAAAAAAAA
+ A/WcrZI9HeS-oDvUnGNEHOQLwSPSqMy8I_ACOQCEAE/photo.jpg
+CATEGORIES:family,myContacts
+END:VCARD
